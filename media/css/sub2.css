@@ -1,0 +1,109 @@
+#content>div{padding:0 5%; margin-bottom:200px}
+.character .grid{clear:both; overflow:hidden; margin-bottom:70px}
+.character .grid ul li{float:left; width:32%; margin-right:2%}
+.character .grid img{width:100%}
+.character .grid ul li:last-of-type{margin-right:0}
+
+.backBox h2{position:absolute; top:50%; left:50%; width:772px; margin-top:-50px; margin-left:-386px; font-size:100px; font-weight:normal; text-align:center; line-height:120px; color:#017bc4; text-shadow:8px 8px 10px #fff;font-family: 'Permanent Marker', cursive}
+
+.sullivan{overflow:hidden; position:relative}
+.sullivan dl{float:right; width:55%; margin:130px 0 20px 0}
+.sullivan dl dt{font-size:75px; color:#017bc4; margin-bottom:10px; font-weight:600}
+.sullivan dl dd{font-size:20px; color:#666; margin-bottom:20px; line-height:1.8em}
+.sullivan>img{position:absolute; left:-1000%; top:41px; opacity: 0; transition: all 1s; float:left; width:650px}
+.sullivan .boxMove{left:45px; opacity:1}
+
+.mike{overflow:hidden}
+/*.mike>img{float:right; width:48%;}*/
+.mike dl{float:left; width:55%;  margin-right:4%; margin:60px 0 20px 0}
+.mike dl dt{font-size:75px; color:#017bc4; margin-bottom:10px; font-weight:600}
+.mike dl dd{font-size:20px; color:#666; margin-bottom:20px; line-height:1.8em}
+.mike>img{position:absolute; right:-1000%; top:2055px; opacity: 0; transition: all 1s; float:right; width:540px}
+.mike .boxMove2{right:195px; opacity:1}
+
+.boo{overflow:hidden}
+.boo dl{float:right; width:55%; margin:60px 0 20px 0}
+.boo dl dt{font-size:75px; color:#017bc4; margin-bottom:10px; font-weight:600}
+.boo dl dd{font-size:20px; color:#666; margin-bottom:20px; line-height:1.8em}
+.boo>img{position:absolute; left:-1000%; top:3040px; opacity: 0; transition: all 1s; width:300px; float:left; margin:0px 4% 0 0}
+.boo .boxMove3{left:312px; opacity:1;}
+
+.character .etc{margin-top:60px}
+.character .cha{overflow:hidden; position:relative}
+/*.character .cha ul li{float:left; width:50%}*/
+.character .cha ul li{float:left; width:49%; margin-right:2%}
+.character .cha ul li:nth-of-type(2){float:left; width:49%; margin-right:0%}
+.character .cha ul li img{float:left; width:290px; position:absolute; top:-5px; left:500px}
+.character .cha ul li:first-of-type dl{float:left;}
+.character .cha ul li dl{float:right;width:57%; margin:0 0 20px 0}
+.character .cha dl dt{font-size:40px; color:#017bc4; margin-bottom:20px; font-weight:600}
+.character .cha dl dd{font-size:18px; color:#666; margin:0px 0 15px; line-height:1.8em}
+.character .cha ul li .nuze img{width:325px; position:absolute; top:-5px; left:870px}
+
+/* 일반 pc */
+@media screen and (max-width:1280px) {
+	/*#headerArea #gnb ul li h3 a{font-size:23px}*/
+    .character .sullivan>img{width:500px; left:0px; top:160px}
+    .character .sullivan dl dt{font-size:60px}
+    .character .sullivan dl dd{font-size:18px}
+    .mike .boxMove2{width:500px; top:2100px; left:715px}
+    .boo .boxMove{left:155px}
+    .character .cha ul li .vogs img{top:105px; left:325px}
+    .character .cha ul li .nuze img{top:-10px; left:545px; width:265px;}
+    .boo .boxMove3{left:165px}
+}
+
+
+/* 테블릿 */
+@media screen and (max-width:1024px) {
+    .character .sullivan>img{margin-top:100px; width:416px; left:-11px; transform:rotate(5deg)}
+    .character .cha ul li .vogs img{top:185px; left:255px}
+    .character .cha ul li .nuze img{top:-10px; left:388px; width:250px}
+    .mike .boxMove2{width:400px; left:575px}
+    .boo .boxMove3{left:85px; margin-top:180px}
+}
+
+/* 소형 테블릿 */
+@media screen and (max-width:768px) {
+    .character .sullivan dl dt{font-size:60px}
+    .character .sullivan>img, .character .mike>img, .character .boo>img, .character .vogs>img, .character .nuze>img{display:none}
+    .character dl{width:100%}
+    .character dl dt{font-size:55px}
+    /*.character dl dd:nth-of-type(2){display:block}*/
+    .character .grid ul{overflow:hidden}
+    .character .grid ul li{/*float:none;*/ width:100%}
+    .character .grid ul li:nth-of-type(2){float:left; width:49%; margin-right:2%}
+    .character .grid ul li:nth-of-type(3){width:49%; margin-right:0}
+    .character .cha ul li:first-of-type dl{width:100%}
+    .character .cha ul li:nth-of-type(2) dl{width:100%}
+}
+
+/* 모바일 */
+@media screen and (max-width:640px) {
+     .character .sullivan dl dt{font-size:40px}
+     .character .sullivan dl dd{font-size:16px}
+     .character .cha ul li{float:none; width:100%}
+     .character .grid ul li:nth-of-type(2){width:100%}
+     .character .grid ul li:nth-of-type(3){width:100%}
+     .character .cha dl dt{font-size:20px; margin-bottom:5px}
+     .character .cha dl dd{font-size:16px}
+     .character dl dt{font-size:45px}
+     .character dl dd{font-size:16px}
+     .character .cha ul li:nth-of-type(2){width:100%}
+     .sullivan dl{margin-top:70px}
+     .mike dl{margin-top:0}
+     .boo dl{margin-top:0}
+     .character dl dt{font-size:35px}
+     .character .sullivan dl dt{font-size:35px}
+     .character .cha dl dt{font-size:35px}
+     .backBox h2{font-size:65px}
+}
+
+/* 최소 사이즈 처리 */
+@media screen and (max-width:480px){
+    .character .etc{margin-top:0}
+    .character dl dt{font-size:30px}
+    .character .sullivan dl dt{font-size:30px}
+    .character .cha dl dt{font-size:30px}
+    .backBox h2{font-size:45px; text-shadow:6px 6px 10px #fff}
+}

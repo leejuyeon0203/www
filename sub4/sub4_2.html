@@ -1,0 +1,121 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION);
+?>
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <title>블루스퀘어-Rental guide</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/23c3575424.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="common/css/sub4common.css">
+    <link rel="stylesheet" href="css/content2.css">
+
+    <script src="../common/js/prefixfree.min.js"></script>
+    <!--[if IE9]>  
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+    <? include "../common/sub_head.html" ?>
+    <? $_GET['num']=2;
+          include "common/sub_nav.html"; ?>
+
+    <!-- 본문콘텐츠영역 -->
+    <article id="content">
+        <div class="title_area">
+            <div class="lineMap">
+                <span>home</span> &gt; <span>Rental</span> &gt; <strong>Rental guide</strong>
+            </div>
+            <div class="title">
+                <h2>Rental guide</h2>
+                <p>예술이 향휴되는 공간 블루스퀘어 입니다</p>
+            </div>
+        </div>
+        <div class="content_area">
+            <h3>대관절차</h3>
+            <ol>
+                <li>
+                    <p><span>STEP1</span><br>대관 신청<span>대관문의 접수</span></p>
+                </li>
+                <li>
+                    <p><span>STEP2</span><br>대관 심의<span>7일 이내</span></p>
+                </li>
+                <li>
+                    <p><span>STEP3</span><br>결과 통보<span>E-mail 회신</span></p>
+                </li>
+                <li>
+                    <p><span>STEP4</span><br>대관 계약<span>계약서 작성</span></p>
+                </li>
+                <li>
+                    <p><span>STEP5</span><br>대관료 납부<span>계약금/잔금</span></p>
+                </li>
+            </ol>
+            <h3>대관시설</h3>
+            <ul class="box">
+                <li>
+                    <img src="images/content2/stage1.jpg" alt="인터파크홀 이미지">
+                    <div>
+                        <p>인터파크홀</p>
+                        <p>면적 : 245.7m</p>
+                    </div>
+                    <a href="images/content2/BlueSquare_rent(2020).xls" title="대관신청 다운로드"><img src="images/content2/download.png" alt="대관신청 다운로드">대관신청서</a>
+                </li>
+                <li>
+                    <img src="images/content2/stage2.jpg" alt="아이마켓홀 이미지">
+                    <div>
+                        <p>아이마켓홀</p>
+                        <p>면적 : 221.7m</p>
+                    </div>
+                    <a href="#none" title="대관신청 다운로드"><img src="images/content2/download.png" alt="대관신청 다운로드">대관신청서</a>
+                </li>
+            </ul>
+            <ul class="box">
+                <li>
+                    <img src="images/content2/stage3.jpg" alt="카오스홀 이미지">
+                    <div>
+                        <p>카오스홀</p>
+                        <p>면적 : 572m</p>
+                    </div>
+                    <a href="#none" title="대관신청 다운로드"><img src="images/content2/download.png" alt="대관신청 다운로드">대관신청서</a>
+                </li>
+                <li>
+                    <img src="images/content2/stage4.jpg" alt="NEMO 이미지">
+                    <div>
+                        <p>NEMO</p>
+                        <p>면적 : 382.5m</p>
+                    </div>
+                    <a href="#none" title="대관신청 다운로드"><img src="images/content2/download.png" alt="대관신청 다운로드">대관신청서</a>
+                </li>
+            </ul>
+            <h3>준비사항</h3>
+            <ul class="text text1">
+                <li>블루스퀘어를 통한 홍보방법으로는 인터넷 홈페이지, 지정장소 현수막 게시, 포스터 부착 등이 있으며, 추가하고 싶은 세부사항이 있으면 담당자와 협의하여 주시기 바랍니다.</li>
+                <li>행사 및 전시회에 소요되는 현수막·포스터·리플릿 등은 신청자가 직접 제작하여 게시 및 비치해야 합니다.</li>
+                <li>공연장에서 지원되는 비품을 사전에 반드시 확인하여, 지원되지 않는 소요비품은 직접 준비해야 합니다.</li>
+            </ul>
+            <h3>준수사항</h3>
+            <ul class="text">
+                <li>사용허가를 받은 신청자는 그 권리를 양도하거나 전대할 수 없습니다.</li>
+                <li>사용기간 중 시설 및 비품 등을 분실 및 훼손하였을 경우에는 원상 복구해야 하며, 사용 완료 시에는 사용전과 같이 정돈해야 합니다.</li>
+                <li>사용허가를 받은 신청자가 박물관에 반입한 각종 물품의 보관·관리·경비에 대한 모든 책임을 지며, 이의 도난·분실·파손 등 사고에 대하여 본 박물관은 일체의 책임을 지지 않습니다.</li>
+                <li>사용시설물에 특수시설 등을 설치 및 변경할 때에는 반드시 박물관 담당자의 허가를 득한 후 설치·변경하고 사용 종료와 동시에 원상복구 하여야 합니다.</li>
+                <li>시설물 사용 중 신청목적 및 내용에 대한 위반사항 발생할 때에는 사용허가가 취소되며, 즉시 철수해야 합니다.</li>
+                <li>대관료는 계약체결 후 7일 이내에 입금 또는 결제하여야 합니다.</li>
+                <li>세부 사항은 내부 대관규정에 따릅니다. 신청 전 반드시 대관규정을 확인하여 주시기 바랍니다. (대관규정은 대관신청서와 함께 다운로드 할 수 있습니다.)</li>
+            </ul>
+        </div>
+    </article>
+
+    <? include "../common/sub_foot.html" ?>
+</body>
+
+</html>

@@ -1,0 +1,19 @@
+/*Direction > sub1_3*/
+#map{width:100%; height:280px;position: relative; overflow: hidden; left: 50%; margin-left:-50%; margin-bottom:50px}
+.content_area{width:100%; font-family:'Nanum Gothic',sans-serif}
+.content_area h3{font-size:20px; font-weight:700; font-family:'Nanum Gothic',sans-serif; position:relative; margin-left:20px; margin-bottom:5px}
+table{width:90%; margin:0px 5%; font-family:'Nanum Gothic',sans-serif; font-size:16px; line-height:1.4em; border-collapse:collapse; color:#333}
+.content_area th,td{border:1px solid #dedede}
+.content_area ul{font-family:'Nanum Gothic',sans-serif; padding:0px 20px}
+.content_area ul:nth-of-type(1){margin-bottom:50px}
+.content_area ul li{line-height:1.8em; margin-left:30px; font-size:14px; margin-bottom:10px}
+.content_area ul li::before{content: ''; display:block; width:5px; height:5px; border-radius:3px; background:#4689d0; position:relative; top:15px; left:-15px}
+.content_area ul li span{font-size:18px; font-weight:700}
+
+/* move3 > move_info3 */
+.content_area .move3{margin-bottom:100px}
+.move3_text{margin-bottom:20px; line-height:2em}
+.move3_text span{color:#169dd9}
+.move_info3 thead th{padding:15px; color:#333; border:1px solid #dedede; font-weight:700; font-size:16px}
+.move_info3 tbody th{text-align:center; padding:15px; color:#169dd9; font-size:16px}
+.move_info3 tbody td{text-align:left; color:#666; padding:15px; font-size:14px}

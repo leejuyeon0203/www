@@ -1,0 +1,15 @@
+/*event > sub4_1*/
+.content_area{width:100%; font-family:'Nanum Gothic', sans-serif;}
+.content_area .tabs{margin-bottom:20px; overflow:hidden; font-size:18px}
+.content_area .tabs li{float:left; width:50%; text-align:center}
+.content_area .tabs .on a{color:#169dd9; font-weight:700}
+.content_area .tabs li:last-child{float:right}
+.content_area .tabs li:hover{color:#169dd9}
+.content_area .contlist{display:none}
+.content_area ul li img{width:90%; margin:0px 5%; border-radius:10px}
+.content_area ul li a>img{box-shadow:2px 2px 3px 1px #ccc }
+.content_area ul li dl{width:90%; margin:0px 5%; width:90%; margin:0px 5%;  padding:10px 0px 35px 0px;}
+.content_area ul li dl dt{font-size:18px; margin-bottom:5px; font-weight:700}
+.content_area ul li dl dd{font-size:14px; color:#999}
+.content_area ul li .big{width:100%; display:none; position:absolute; left:0; top:100px; z-index:70}
+.content_area .popupbox{width:100%; height:100%; background:rgb(0,0,0,.7); position:absolute; left:0; top:0; display:none; z-index:20;}

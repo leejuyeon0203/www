@@ -1,0 +1,18 @@
+/* performance 본문 */
+
+/*show1*/
+#showBox {overflow:hidden}
+#showBox div{overflow:hidden; margin-bottom:80px}
+#showBox img{float:left; width:350px; height:460px; border:1px solid #dedede}
+#showBox .show_text{float:right; padding:30px 100px 21px 0; font-family:'Nanum Gothic',sans-serif; width:600px; border-top:2px solid #000; border-bottom:2px solid #dedede; height:405px}
+#showBox .show_text dt{font-size:40px; font-weight:700; padding-bottom:15px; border-bottom:2px solid #dedede; padding-left:30px}
+#showBox .show_text dd{font-size:18px; line-height:3em; font-family:'Nanum Gothic',sans-serif; color:#666; padding-left:30px;font-family:'Nanum Gothic',sans-serif}
+#showBox .show_text dd:nth-of-type(1){margin-top:20px}
+#showBox .show_text dd span{font-weight:700; margin-right:50px}
+
+/*page*/
+.content_area .page{overflow:hidden; margin-left:500px}
+.content_area .page li{float:left; display:block; width:30px; height:23px; border:1px solid #dedede; padding-top:7px; text-align:center; margin-left:5px}
+.content_area .page li a{color:#999}
+.content_area .page li a:hover{color:#666; font-weight:bold}
+.content_area .page li .current_page{color:#666; font-weight:bold}

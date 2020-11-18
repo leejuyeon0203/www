@@ -1,0 +1,29 @@
+/* FAQ 본문 */
+
+/* tabs */
+.content_area .tabs{float:left; width:1000px; border-bottom:1px solid #dedede; margin:0 50px 100px 50px}
+.content_area .tabs li{float:left;width:293px; font-size:18px; font-weight:700; text-align:center; padding:20px}
+.content_area .tabs li a{display:block}
+.content_area .tabs li a:hover{color:#169dd9}
+.content_area .tabs li a:hover::after{content:''; display:block; width:333px; height:3px; background:#169dd9; position:relative; top:22px; left:-20px}
+.content_area .tabs .on::after{content:''; display:block; width:333px; height:3px; background:#169dd9; position:relative; top:22px; left:-20px}
+.content_area .contlist{display:none}
+.content_area{font-family:'Nanum Gothic',sans-serif}
+.content_area section h3{font-size:24px; font-weight:700; margin-bottom:15px;clear:both}
+.content_area section ul{font-size:16px; text-align:justify}
+.content_area section ul:last-child{margin-bottom:200px}
+.content_area section ul li p{border-top:1px solid #dedede;font-weight:600}
+.content_area section ul:last-child li p{border-bottom:1px solid #dedede}
+.content_area section ul li p span{font-family:'Roboto', sans-serif; margin-right:10px; font-size:22px; color:#169dd9}
+.content_area section ul li p:last-child{padding:25px 25px 25px 45px; background:#f0f7ff; line-height:2em}
+.content_area section ul li p:last-child span{font-family: 'Roboto', sans-serif; margin-right:10px; font-size:20px; font-weight:600; color:#d91616; border-bottom:none}
+.content_area{position:relative; margin:0 0 10px 0;}  
+.content_area .all{position:absolute; top:180px; right:30px; font-size:16px; color:#999; text-decoration:none;font-family:'Nanum Gothic',sans-serif; letter-spacing:.5px; font-weight:600} 
+.content_area .q{margin:0;border-top:1px solid #ddd; position:relative}
+.content_area .q .plus{display:block; font-size:25px; color:#ccc; position:absolute; top:23px; right:30px}
+.content_area .q a.trigger{display:block; padding:25px; background:#fafafa;color:#333;text-align:left;text-decoration:none}  
+.content_area .hide .q a.trigger{padding:25px; font-weight:normal;background:none}  
+.content_area .q a.trigger:hover,  
+.content_area .q a.trigger:active,  
+.content_area .q a.trigger:focus{background:#f2f2f2;color:#000}  
+.content_area .a{margin:0;padding:10px 15px;line-height:1.5em} 

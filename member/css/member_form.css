@@ -1,0 +1,39 @@
+body{background-color:#f2f2f2 }
+body .wrap{width:800px; background-color:#fff; height:900px; border-radius:2%; border:3px solid #169dd9; margin:100px auto 500px; padding-right:35px}
+#content{width:640px; margin:80px auto; position:relative}
+input, select{padding: 10px; border-radius: 2px; font-size: 1.5em; border: 0; background: rgba(204,204,204,.5); outline: none; width: 640px}
+
+h2{text-align:center; font-size:55px; position:relative; width:1000px; margin:0 0 50px -460px; position:relative; top:0; left:50%;}
+h2 a{text-decoration:none}
+h2::before{content:''; display:block; width:35px; height:35px; border:5px solid #169dd9; position:absolute; top:9px; left:250px}
+h2 span{color:#169dd9}
+
+form.memberForm.joinBox{width:680px}
+.joinBox div{margin-bottom: 10px}
+.joinBox input{height: 50px; padding-left: 30px}
+.joinBox .nameBox{float: left}
+.joinBox .nameBox1{float: right; position: relative}
+#loadtext{position:absolute; top:3px; right:5px; font-size:12px; width:100%}
+/*.idBox input[type="button"] { padding-left: 0px; margin-left: 10px; width: 188px; background-color: #ccc; color: #333; }*/
+.idBox{position:relative}
+.idBox{/*background:#169dd933; height:75px; padding-left:30px; */vertical-align:middle}
+.idBox p{font-size:20px; line-height:73px}
+.idBox span{position:absolute; top:27px; right:20px; font-size:12px; color:rgba(204,204,204,.5); color:#169dd9; font-weight:bold}
+.idBox2{background:#169dd933; height:75px; padding-left:30px}
+
+.pwBox .mb10{margin-bottom: 10px}
+.nameBox input{width: 290px}
+#loadtext2{ position: absolute; top: 3px; right: 5px; font-size: 12px; }
+#loadtext2 span{font-weight:bold}
+
+.genLb {display: inline-block; width: 20px; height: 20px; border: 0px; border-radius: 15px; background-color: #e5e5e5; cursor: pointer; margin: 29px 0; }
+.genTxt {font-size: 20px; line-height: 20px; margin: 0 20px 0 8px; color: #777}
+.telBox {clear: both}
+.telBox select {width: 180px; border: 0px; font-size: 18px; color: #777; height: 80px}
+.telBox input {width: 185px}
+.mailBox input {width: 290px}
+
+.subMit{margin-top: 50px}
+.subMit input { padding-left: 0px; width: 680px; height: 90px; font-size: 18px; font-weight: 700; }
+.subMit input[type="button"] {color:#fff; background-color:#169dd9}
+.subMit input[type="reset"], .subMit input[type="button"] { background-size: 680px 100%; }

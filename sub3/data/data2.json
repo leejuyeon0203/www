@@ -1,0 +1,116 @@
+{
+  "list": [
+    {
+       "img" : "images/content2/perform1.jpg" ,
+       "title" : "드라큘라",
+       "day"   : "2020.2.11 ~ 2020.06.07" ,
+       "book"   : "정보" ,
+       "info"   : "예매" 
+    },
+    {
+       "img" : "images/content2/perform2.jpg" ,
+       "title" : "킹키부츠",
+       "day"   : "2020.2.11 ~ 2020.06.07" ,
+       "book"   : "정보" ,
+       "info"   : "예매" 
+    },
+      {
+       "img" : "images/content2/perform3.jpg" ,
+       "title" : "오페라의 유령",
+       "day"   : "2020.2.11 ~ 2020.06.07" ,
+       "book"   : "정보" ,
+       "info"   : "예매" 
+    },
+      {
+       "img" : "images/content2/perform4.jpg" ,
+       "title" : "위키드",
+       "day"   : "2020.08.21 ~ 2020.11.01" ,
+       "book"   : "정보" ,
+       "info"   : "예매" 
+    },
+      {
+       "img" : "images/content2/perform5.jpg" ,
+       "title" : "맨 오브 라만차",
+       "day"   : "2020.3.14 ~ 2020.08.07" ,
+       "book"   : "정보" ,
+       "info"   : "예매" 
+    },
+      {
+       "img" : "images/content2/perform6.jpg" ,
+       "title" : "모차르트",
+       "day"   : "2020.1.14 ~ 2020.05.07" ,
+       "book"   : "정보" ,
+       "info"   : "예매" 
+    },
+      {
+       "img" : "images/content2/perform7.jpg" ,
+       "title" : "레미제라블",
+       "day"   : "2020.2.11 ~ 2020.06.07" ,
+       "book"   : "정보" ,
+       "info"   : "예매" 
+    },
+      {
+       "img" : "images/content2/perform8.jpg" ,
+       "title" : "캣츠",
+       "day"   : "2020.2.11 ~ 2020.06.07" ,
+       "book"   : "정보" ,
+       "info"   : "예매" 
+    },
+      {
+       "img" : "images/content2/perform9.jpg" ,
+       "title" : "PHANTOM",
+       "day"   : "2020.2.11 ~ 2020.06.07" ,
+       "book"   : "정보" ,
+       "info"   : "예매" 
+    },
+      {
+       "img" : "images/content2/perform10.jpg" ,
+       "title" : "영웅",
+       "day"   : "2020.2.11 ~ 2020.06.07" ,
+       "book"   : "정보" ,
+       "info"   : "예매" 
+    },
+      {
+       "img" : "images/content2/perform11.jpg" ,
+       "title" : "THE LION KING",
+       "day"   : "2020.2.11 ~ 2020.06.07" ,
+       "book"   : "정보" ,
+       "info"   : "예매" 
+    },
+      {
+       "img" : "images/content2/perform12.jpg" ,
+       "title" : "AIDA",
+       "day"   : "2020.2.11 ~ 2020.06.07" ,
+       "book"   : "정보" ,
+       "info"   : "예매" 
+    },
+      {
+       "img" : "images/content2/perform13.jpg" ,
+       "title" : "마틸다",
+       "day"   : "2020.2.11 ~ 2020.06.07" ,
+       "book"   : "정보" ,
+       "info"   : "예매" 
+    },
+      {
+       "img" : "images/content2/perform14.jpg" ,
+       "title" : "레베카",
+       "day"   : "2020.2.11 ~ 2020.06.07" ,
+       "book"   : "예매" ,
+       "info"   : "정보" 
+    },
+      {
+       "img" : "images/content2/perform15.jpg" ,
+       "title" : "시카고",
+       "day"   : "2020.2.11 ~ 2020.06.07" ,
+       "book"   : "예매" ,
+       "info"   : "정보" 
+    },
+      {
+       "img" : "images/content2/perform16.jpg" ,
+       "title" : "헤드윅",
+       "day"   : "2020.2.11 ~ 2020.06.07" ,
+       "book"   : "예매" ,
+       "info"   : "정보" 
+    }
+  ]
+}

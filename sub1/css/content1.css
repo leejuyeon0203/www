@@ -1,0 +1,15 @@
+/* introdcue 본문 */
+#content .content_area .text1{overflow:hidden; margin-bottom:50px;}
+#content .content_area .text1 img{width:548px; float:left}
+#content .content_area .text1 p{float:right;font-size:36px; font-family: 'Roboto', sans-serif; line-height: 1.3em; margin:149px 64px 137px 25px; color:#333; font-weight:700}
+#content .content_area .text1 p span{font-size:46px; color:#0093d4; font-family: 'Roboto', sans-serif;}
+#content .content_area p{font-size:18px; color:#666; font-family: 'Nanum Gothic',sans-serif; line-height:2em; margin-bottom:50px; text-align:justify}
+#content .content_area>p:nth-of-type(2){ margin-top:50px}
+
+/*boxmove*/
+.content_area .text1 p{position: relative; right:-1000px; top:0; opacity: 0; transition: all .8s}  
+.content_area .text1 p{height: 100px}
+
+/* .boxMove 클래스명이 붙으면 right값이 옮겨지고 opactiy가 변신 => 목적값(scroll animation) */
+.content_area .text1 p.boxMove{right:0; opacity: 1}
+.text{position: fixed; right:0; top: 0; font-size: 50px; z-index: 100}

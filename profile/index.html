@@ -1,0 +1,287 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Lee Juyeon Portfolio </title>
+    <link rel="shortcut icon" type="image/x-icon"  href="favicon.ico" >
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery-2.1.1.min.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/prefixfree.min.js"></script>
+    <script src="js/jquery.mousewheel.min.js"></script>
+    <script src="js/custom.js"></script>
+    
+    <script src="js/typer.js"></script>
+    <script>
+        window.onload = function() {
+            var el = document.querySelector('.main-text')
+            var options = {
+                text: '지 금 이 ─ 아 니 면 \n 세 상 어 디 에 도 없 는 \n 주 도 적 인 ─ 퍼 블 리 셔 \n 이 주 연 입 니 다',
+                textSpeed: 95,
+                blinkSpeed: 0.06
+            }
+
+            var instance = new tinytyper(el, options);
+
+        }
+    </script>
+    <!-- 첫페이지 text animate 효과 e-->	
+</head>
+
+<body>
+    <!-- 로고 -->
+    <h1>Lee Juyeon</h1>
+
+    <!-- 주 메뉴 -->
+    <ul id="menu">
+        <li class="on"><a href="#">Home</a></li>
+        <li><a href="#">Profile</a></li>
+        <li><a href="#">Pc Web</a></li>
+        <li><a href="#">Mobile Web</a></li>
+        <li><a href="#">Responsive</a></li>
+        <li><a href="#">Bootstrap</a></li>
+        <li><a href="#">Wordpress</a></li>
+    </ul>
+
+    <!-- sns -->
+    <!--<ul id="sns">
+        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+        <li><a href="#"><i class="fa fa-envelope"></i></a></li>
+    </ul>-->
+    <!-- 전체 페이지 -->
+    <div id="wrap">
+
+        <!-- 첫 번째 박스 -->
+        <section>
+            <div class="main-text"></div>
+            <img class="p11" src="img/obj11.png" alt="">
+            <img class="p12" src="img/obj12.png" alt="">
+            <img class="p13" src="img/obj13.png" alt="">
+        </section>
+
+        <!-- 두 번째 박스_profile -->
+        <section>
+            <div class="section" id="section1">
+                <div class="slide" id="slide1">
+                    <div class="profileWrap">
+                        <div class="profileText">
+                            <h2>이 주 연</h2>
+                            <span class="eName">Web Publisher / 프론트개발자</span>
+
+                            <dl>
+                                <dt>Birth.</dt>
+                                <dd>1995.02.03</dd>
+                                <dt>Email.</dt>
+                                <dd>ju0203ju@naver.com</dd>
+                                <dt>Phone.</dt>
+                                <dd>010.2901.2637</dd>
+                            </dl>
+                            <dl>
+                                <dt>Skills(Develop)</dt>
+                                <dd>HTML5/CSS3, JavaScript, jQuery, Ajax(Json), <br>php(include), Bootstrap, CMS(Wordpress)</dd>
+                            </dl>
+                            <dl>
+                                <dt>Skills(Design)</dt>
+                                <dd>Photoshop, Illustrator, AfterEffect, Premiere, Indesign</dd>
+                            </dl>
+                            <dl>
+                                <dt>Career</dt>
+                                <dd>웹 디자인 및 퍼블리싱과 전반적인 홈페이지 관리</dd>
+                            </dl>
+                        </div>
+                        <div><img src="images/juyeon.gif" alt=""></div>
+                        <div class="profileImgWrap">
+                            <img src="images/storyboard.pdf" alt="">
+                            <div class="downPort">
+                                <a href="images/storyboard.pdf">View Storyboard</a>
+                            </div>
+                            <div class="downPort">
+                                <a href="https://github.com/leejuyeon0203/www.git"  target="_blank">View Github</a>
+                            </div>
+                            <div class="downPort">
+                                <a href="images/resume/application.html"  target="_blank">View Resume</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 세 번째 박스_기업형 -->
+        <section>
+            <div class="pcText text">
+              <h2>블루스퀘어 <br><strong>Desktop 웹 사이트 제작</strong></h2>
+              <p><strong>사이트 기획의도</strong> <br>기존 웹사이트의 산만한 Interface, Image Alt 누락으로 인한 접근성 부재를 <br>문제점으로 삼아 트렌드에 맞는 UI와 웹 표준을 지향하는 마크업으로 <br>접근성을 고려하여 새롭게 구축하였습니다.</p>
+              <div class="timeSkill skill">
+                  <dl>
+                      <dt>제작기간</dt>
+                      <dd>4 Month</dd>
+                  </dl>
+                  <dl>
+                      <dt>제작스킬</dt>
+                      <dd>Adobe Photoshop, Illustrator</dd>
+                      <dd>HTML5, CSS3, Javascript, jQuery, Ajax, JSON, PHP, MySqlW3C 웹표준 마크업 검사, 웹접근성검사(K-WAH), 다른 해상도 기기별 크로스브라우징 완료</dd>
+                  </dl>
+                  <dl>
+                      <dt>기능구현</dt>
+                      <dd>회원가입, 로그인/로그아웃, 게시판(일반, 이미지 첨부, 검색-전페이지, 문의기능)</dd>
+                  </dl>
+              </div>
+              <div class="pcSite site"><a href="http://leejuyeon0203.cafe24.com/" target="_blank">view site</a></div>
+            </div>
+            <div class="pcWrap wrap">
+              <img src="images/bluesquare.gif" alt="">
+            </div>
+            <div class="qr">
+                <!--<img src="img/qr_web.jpg" alt="">-->
+            </div>
+        </section>
+
+        <!-- 네 번째 박스_모바일 -->
+        <section>
+            <div class="mobileText text grayText">
+                <h2><strong>블루스퀘어</strong> <br><strong>mobile 웹 사이트 제작</strong></h2>
+                <p><strong>사이트 기획의도</strong> <br>메인화면에서 사용자가 원하는 경험을 중심으로 퀵메뉴를 구분하고, <br>컨텐츠의 기능과 성격에 맞춰 위계를 재정렬한 모바일 버전입니다.</p>
+                <div class="timeSkill skill graySkill">
+                    <dl>
+                        <dt>제작기간</dt>
+                        <dd>3 Weeks</dd>
+                    </dl>
+                    <dl>
+                        <dt>제작스킬</dt>
+                        <dd>Adobe Photoshop, Illustrator</dd>
+                        <dd>HTML5, CSS3, Javascript, jQuery, MySql, PHP, CSS3(media query)CSS3(media query)와 스크립트를 이용한 기기별 해상도 서비스W3C 웹표준 마크업 검사, 웹접근성검사(K-WAH), 대표 기기별 테스트 완료</dd>
+                    </dl>
+                    <dl>
+                      <dt>기능구현</dt>
+                      <dd>회원가입, 로그인/로그아웃</dd>
+                    </dl>
+                </div>
+                <div class="mobileSite site"><a href="http://leejuyeon0203.cafe24.com/mobile" target="_blank">view site</a>
+                </div>
+            </div>
+            <div class="mobileWrap wrap">
+                <img src="images/mobile.gif" alt="">
+            </div>
+            <!--<div class="QRMobile">
+                <img src="images/mobileQR.jpg" alt="">
+            </div>-->
+            <div class="qr">
+                <img src="images/qr_web.jpg" alt="">
+            </div>
+        </section>
+        
+        <!-- 다섯 번째 박스_반응형 -->
+        <section>
+            <div class="responsiveText text">
+                <h2>몬스터 주식회사 <br><strong>Responsive 웹 사이트 제작</strong></h2>
+                <p><strong>사이트 기획의도</strong> <br>영화 "몬스터주식회사"를 주제로 한 사이트로써, 다양한 디바이스에서 <br>폭 넓게 이용할 수 있도록 반응형 웹을 구축하였습니다.</p>
+                <div class="timeSkill skill">
+                    <dl>
+                        <dt>제작기간</dt>
+                        <dd>3 Days</dd>
+                    </dl>
+                    <dl>
+                        <dt>제작스킬</dt>
+                        <dd>Adobe Photoshop, Illustrator</dd>
+                        <dd>HTML5, CSS3(media query), JavaScript, jQuery를 이용한 디바이스/해상도별 반응형 UI 구현W3C 웹표준 마크업 검사, 웹접근성검사(K-WAH), 대표 기기별 테스트 완료</dd>
+                    </dl>
+                    <dl>
+                      <dt>기능구현</dt>
+                      <dd>PC, 태블릿, 모바일 해상도에 따른 최적화된 UI 구현</dd>
+                    </dl>
+                </div>
+                <div class="QRMobile"><img src="img/QRCodeImg_media.jpg" alt=""></div>
+                <div class="responsiveSite site"><a href="http://leejuyeon0203.cafe24.com/media" target="_blank">view site</a></div>
+            </div>
+            <div class="responsiveWrap wrap">
+                <div class="pad">
+                    <img src="images/monster_tablet.png" alt="">
+                </div>
+                <div class="totalPc">
+                    <img src="images/monster.gif" alt="">
+                    <img src="images/monster_mobile.png" alt="">
+                </div>
+            </div>
+            <div class="qr">
+                <img src="images/qr_media.jpg" alt="">
+            </div>
+        </section>
+        
+        <!-- 여섯 번째 박스 -->
+        <section>
+            <div class="wpText text grayText">
+                <h2>블루보틀 <br><strong>bootstrap 웹 사이트 제작</strong></h2>
+                <p><strong>사이트 기획의도</strong> <br>평소 관심있던 주제를 워드프레스 사이트에 접목해서 <br>컨셉을 잡고 디자인을 해보고싶어 진행했습니다.</p>
+                <div class="timeSkill skill graySkill">
+                    <dl>
+                        <dt>제작기간</dt>
+                        <dd>3 Days</dd>
+                    </dl>
+                    <dl>
+                        <dt>제작스킬</dt>
+                        <dd>HTML5/CSS3</dd>
+                    </dl>
+                    <dl>
+                      <dt>기능구현</dt>
+                      <dd>부트스트랩 프레임워크를 이용한 PC, 태블릿, 모바일 해상도에 따른 최적화된 UI구현</dd>
+                    </dl>
+                </div>
+                <div class="wpSite site"><a href="http://leejuyeon0203.cafe24.com/media2" target="_blank">view site</a></div>
+            </div>
+            <div class="wpWrap wrap">
+                <div class="pad">
+                    <img src="images/bluebottle_tablet.png" alt="">
+                </div>
+                <div class="totalPc">
+                    <img src="images/bluebottle.png" alt="">
+                    <img src="images/bluebottle_mobile.png" alt="">
+                </div>
+            </div>
+            <div class="qr">
+                <img src="images/qr_media2.jpg" alt="">
+            </div>
+        </section>
+        
+        <!-- 일곱 번째 박스_wordpress -->
+        <section>
+            <div class="wpText text grayText">
+                <h2>키스해링 <br><strong>wordpress 웹 사이트 제작</strong></h2>
+                <p><strong>사이트 기획의도</strong> <br>평소 관심있던 주제를 워드프레스 사이트에 접목해서 <br>컨셉을 잡고 디자인을 해보고싶어 진행했습니다.</p>
+                <div class="timeSkill skill graySkill">
+                    <dl>
+                        <dt>제작기간</dt>
+                        <dd>2 Days</dd>
+                    </dl>
+                    <dl>
+                        <dt>사용테마</dt>
+                        <dd>SYDNEY</dd>
+                    </dl>
+                    <dl>
+                      <dt>기능구현</dt>
+                      <dd>PC, 태블릿, 모바일 반응형 웹사이트로 해상도에 따른 UI 변경, 갤러리, 슬라이드 등 기능 포함</dd>
+                    </dl>
+                </div>
+                <div class="wpSite site"><a href="http://leejuyeon0203.dothome.co.kr/wp" target="_blank">view site</a></div>
+            </div>
+            <div class="wpWrap wrap">
+                <div class="pad">
+                    <img src="images/keithharing_tablet.png" alt="">
+                </div>
+                <div class="totalPc">
+                    <img src="images/keithharing.png" alt="">
+                    <img src="images/keithharing_mobile.png" alt="">
+                </div>
+            </div>
+            <div class="qr">
+                <img src="images/qr_wp.jpg" alt="">
+            </div>
+        </section>
+        
+    </div>
+</body>
+
+</html>

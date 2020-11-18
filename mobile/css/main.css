@@ -1,0 +1,114 @@
+/* CSS Document */
+
+/*공통*/
+#content section{margin-bottom:100px}
+#content section h3{font-family: 'Roboto', sans-serif; font-size:22px; font-weight:500; position:relative; width:130px; left:50%; margin: 100px 0 25px -65px}
+#content .content_bottom h3{display: none}
+
+/*비주얼-메인*/
+.main ul li img{width:100%; padding-top:65px}
+
+/*content_top > performance*/
+.swiper-wrapper{left: 15px}
+.content_top{overflow:hidden}
+.content_top ul{height:300px}
+.content_top ul li{float:left;}
+.content_top ul li a .per{display: block; margin-bottom:10px; width:180px; height:254px; text-indent:-999%; color:#fff}
+.content_top ul li p{font-size:16px; color:#666; margin-bottom: 10px; font-weight:700; line-height: 1.5em}
+.content_top ul li p>span{color:#999; font-weight:400}
+.performance1{background:url("../images/performance01x1.jpg")}
+@media screen and (-webkit-min-device-pixel-ratio:2){
+    .performance1{background:url("../images/performance01x2.jpg"); background-size:180px 254px}
+}
+.performance2{background:url("../images/performance02x1.jpg")}
+@media screen and (-webkit-min-device-pixel-ratio:2){
+    .performance2{background:url("../images/performance02x2.jpg"); background-size:180px 254px}
+}
+.performance3{background:url("../images/performance03x1.jpg")}
+@media screen and (-webkit-min-device-pixel-ratio:2){
+    .performance3{background:url("../images/performance03x2.jpg"); background-size:180px 254px}
+}
+.performance4{background:url("../images/performance04x1.jpg")}
+@media screen and (-webkit-min-device-pixel-ratio:2){
+    .performance4{background:url("../images/performance04x2.jpg"); background-size:180px 254px}
+}
+.performance5{background:url("../images/performance05x1.jpg")}
+@media screen and (-webkit-min-device-pixel-ratio:2){
+    .performance5{background:url("../images/performance05x2.jpg"); background-size:180px 254px}
+}
+.performance6{background:url("../images/performance06x1.jpg")}
+@media screen and (-webkit-min-device-pixel-ratio:2){
+    .performance6{background:url("../images/performance06x2.jpg"); background-size:180px 254px}
+}
+
+.thumbs-container .swiper-slide {
+	width: 195px;
+	text-align: left;
+}
+.thumbs-container .slide2{width:200px;}
+.thumbs-container .slide3{margin-left:-15px}
+
+/*content_mid1*/
+.content_mid1{overflow:hidden; background:#eee}
+.content_mid1 h3{font-family: 'Roboto', sans-serif; font-size:22px; font-weight:500; position:relative; width:180px; left:50%; margin:20px 0 25px -90px}
+.content_mid1 h3 span{font-weight:400; font-size:22px}
+.content_mid1 ul{clear:both; overflow: hidden; margin-top:20px; position:relative; width:100%; margin-left:-43%; left:50%}
+.content_mid1 ul:last-of-type{margin-bottom:20px}
+.content_mid1 ul li{float:left; text-align:center; width: 25.33%; margin-right:5%; margin-bottom:30px; display:block}
+.content_mid1 ul li{float:left; text-align:center; width: 25.33%; margin-right:5%; margin-bottom:30px; display:block}
+.content_mid1 ul li span{display:block; font-size:16px; margin-top:10px; color:#666; font-family:'Nanum Gothic', sans-serif; text-align:center; font-weight:600}
+.content_mid1 img{border-radius:50%; width:100%}
+.content_mid1 p{display:block; margin-top:15px}
+
+/*content_mid2 > convenience*/
+.content_mid2{overflow:hidden; clear:both}
+.content_mid2 ul{height:230px}
+.content_mid2 ul li{float:left; position:relative}
+.content_mid2 ul li a .con{display: block; margin-bottom:18px; width:200px; height:200px; text-indent:-999%; color:#fff}
+.content_mid2 ul li p{margin-left:15px; color:#666; font-family:'Nanum Gothic', sans-serif; font-weight:600; font-size:14px; line-height:1.3em}
+.content_mid2 ul li p>span{color:#999; font-size:12px; font-weight:normal}
+.content_mid2 ul li p>span::before{content:''; width:1.5px; height:20px; background:#666; position:absolute; bottom:41px; left:20px;}
+.con1{background:url("../images/convenience01x1.jpg")}
+@media screen and (-webkit-min-device-pixel-ratio:2){
+    .con1{background:url("../images/convenience01x2.jpg"); background-size:200px 200px}
+}
+.con2{background:url("../images/convenience02x1.jpg")}
+@media screen and (-webkit-min-device-pixel-ratio:2){
+    .con2{background:url("../images/convenience02x2.jpg"); background-size:200px 200px}
+}
+.con3{background:url("../images/convenience03x1.jpg")}
+@media screen and (-webkit-min-device-pixel-ratio:2){
+    .con3{background:url("../images/convenience03x2.jpg"); background-size:200px 200px}
+}
+.con4{background:url("../images/convenience04x1.jpg")}
+@media screen and (-webkit-min-device-pixel-ratio:2){
+    .con3{background:url("../images/convenience04x2.jpg"); background-size:200px 200px}
+}
+.con5{background:url("../images/convenience05x1.jpg")}
+@media screen and (-webkit-min-device-pixel-ratio:2){
+    .con3{background:url("../images/convenience05x2.jpg"); background-size:200px 200px}
+}
+.con6{background:url("../images/convenience06x1.jpg")}
+@media screen and (-webkit-min-device-pixel-ratio:2){
+    .con3{background:url("../images/convenience06x2.jpg"); background-size:200px 200px}
+}
+.con7{background:url("../images/convenience07x1.jpg")}
+@media screen and (-webkit-min-device-pixel-ratio:2){
+    .con3{background:url("../images/convenience07x2.jpg"); background-size:200px 200px}
+}
+.con8{background:url("../images/convenience08x1.jpg")}
+@media screen and (-webkit-min-device-pixel-ratio:2){
+    .con3{background:url("../images/convenience08x2.jpg"); background-size:200px 200px}
+}
+.con9{background:url("../images/convenience09x1.jpg")}
+@media screen and (-webkit-min-device-pixel-ratio:2){
+    .con3{background:url("../images/convenience09x2.jpg"); background-size:200px 200px}
+}
+
+/*content_bottom*/
+.content_bottom{overflow:hidden; margin-top:50px}
+.content_bottom ul{overflow: hidden}
+.content_bottom ul li{float: left; text-align: center; width: 25%}
+.content_bottom li a{font-family:'Nanum Gothic', sans-serif; font-size:16px; font-weight:600; text-align:center;}
+.content_bottom ul li img{width: 50px; height: 50px}
+.content_bottom ul li span{display: block; margin-top: 20px; width: 100%}

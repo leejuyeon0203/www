@@ -1,0 +1,108 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION);
+?>
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <title>블루스퀘어-A seating chart</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/23c3575424.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="common/css/sub1common.css">
+    <link rel="stylesheet" href="css/content3.css">
+
+    <script src="../common/js/prefixfree.min.js"></script>
+
+    <!--[if IE9]>  
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <? include "../common/sub_head.html" ?>
+    <? $_GET['num']=3;
+          include "common/sub_nav.html"; ?>
+
+    <!-- 본문콘텐츠영역 -->
+    <article id="content">
+        <div class="title_area">
+            <div class="lineMap">
+                <span>home</span> &gt; <span>Blue Square</span> &gt; <strong>A seating chart</strong>
+            </div>
+            <div class="title">
+                <h2>A seating chart</h2>
+                <p>블루스퀘어는 관객들에게 더 풍성한 즐거움을 제공합니다</p>
+            </div>
+        </div>
+        <div class="content_area">
+            <ul class="hall tabs">
+                <li class="tab tab1">인터파크홀</li>
+                <li class="tab tab2">아이마켓홀</li>
+            </ul>
+            <div class="contlist">
+                <h3 class="hidden">인터파크홀</h3>
+                <ul class="tabs2">
+                    <li class="tab2 hall1"><a href="#none">1F</a></li>
+                    <li class="tab2 hall2"><a href="#none">2F</a></li>
+                    <li class="tab2 hall3"><a href="#none">3F</a></li>
+                </ul>
+                <div class="hall1_seat1 contlist2">
+                    <ul>
+                        <li>객석 1층 좌석수 : <span>1,066석</span></li>
+                        <li>오케스트라 피트석 <span>76석</span></li>
+                        <li>휠체어석 <span>18석</span></li>
+                        <li>모자동반석 <span>14석</span></li>
+                    </ul>
+                    <p>1층 좌석배치도</p>
+                    <img src="images/content3/hall1-1.PNG" alt="인터파크홀 1층 좌석배치도 이미지">
+                </div>
+                <div class="hall1_seat2 contlist2">
+                    <ul>
+                        <li>객석 1층 좌석수 : <span>430석</span></li>
+                        <li>오케스트라 피트석</li>
+                        <li>휠체어석</li>
+                        <li>모자동반석 </li>
+                    </ul>
+                    <p>2층 좌석배치도</p>
+                    <img src="images/content3/hall1-2.PNG" alt="인터파크홀 2층 좌석배치도 이미지">
+                </div>
+                <div class="hall1_seat3 contlist2">
+                    <ul>
+                        <li>객석 1층 좌석수 : <span>270석</span></li>
+                        <li>오케스트라 피트석</li>
+                        <li>휠체어석</li>
+                        <li>모자동반석</li>
+                    </ul>
+                    <p>3층 좌석배치도</p>
+                    <img src="images/content3/hall1-3.PNG" alt="인터파크홀 3층 좌석배치도 이미지">
+                </div>
+            </div>
+            <div class="contlist">
+                <h3 class="hidden">아이마켓홀</h3>
+                <ul class="tabs3">
+                    <li class="tab3 market1"><a href="#none">1F</a></li>
+                    <li class="tab3 market2"><a href="#none">2F</a></li>
+                </ul>
+                <div class="hall1_seat4 contlist3">
+                    <p>1층 좌석배치도</p>
+                    <img src="images/content3/hall2-1.PNG" alt="아이마켓홀 1층 좌석배치도 이미지">
+                </div>
+                <div class="hall1_seat5 contlist3">
+                    <p>2층 좌석배치도</p>
+                    <img src="images/content3/hall2-2.PNG" alt="아이마켓홀 2층 좌석배치도 이미지">
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <? include "../common/sub_foot.html" ?>
+    <script src="js/tab.js"></script>
+</body>
+
+</html>

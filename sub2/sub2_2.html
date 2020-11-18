@@ -1,0 +1,67 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION);
+?>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>블루스퀘어-Bookpark lounge</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/23c3575424.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="common/css/sub2common.css">
+    <link rel="stylesheet" href="css/content2.css">
+    <script src="../common/js/prefixfree.min.js"></script>
+    <!--[if IE9]>  
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+<body>
+        <? include "../common/sub_head.html" ?>
+        <? $_GET['num']=2;
+          include "common/sub_nav.html"; ?>   
+                                                      
+        <!-- 본문콘텐츠영역 -->
+        <article id="content">
+            <div class="title_area">
+               <div class="lineMap">
+                   <span>home</span> &gt; <span>Book Park</span> &gt; <strong>Bookpark lounge</strong>
+               </div>
+               <div class="title">
+                   <h2>Bookpark lounge</h2>
+                   <p>책과 공연 그리고 프리미엄 라운지</p>
+                </div>
+            </div>
+            <div class="content_area">
+                <div class="bookpark_lounge">
+                    <h3>About Lounge</h3>
+                    <p>북파크 라운지는 전문가가 추천한 좋은 책들을 나만의 공간에서 마음껏 읽을 수 있는 고품격 문화 공간입니다. </p>
+                    <p>3천권 이상의 큐레이션 도서가 준비되어 있으며 자유로운 독서와 편안한 휴식을 즐길 수 있는 편안한 공간을 제공해드립니다.<br>라운지 내에는 프리미엄 카페가 입점되어 있어, 핸드드립 커피 등 30여개의 음료 메뉴를 즐기실 수 있습니다. <br>북파크 라운지 회원권을 소지하고 계시다면 1일, 1음료를 무료로 제공해드립니다. </p>
+                </div>
+                <div class="lounge_text1">
+                    <img src="images/content2/lounge1.jpg" alt="북파크 라운지 이미지">
+                    <div class="text1">
+                        <p>북파크 라운지</p>
+                        <p>BOOKPARK LOUNGE</p>
+                        <p>3천권 이상의 큐레이션 도서가 준비되어 있으며, 자유로운 독서와<br> 편안한 휴식을 즐길 수 있는 편안한 공간을 제공해드립니다. <br><br>도서관, 서점, 북카페, 아트숍, 아트갤러리까지 책이 있는 공간을 모두 모아 놓은 라운지로 즐길 수 있으며 <br>이용하는 모든 이들이 좀 더 조용하게 얘기하고 움직이면서 편한게 즐길 수 있는 곳 입니다.
+                        </p>
+                    </div>   
+                </div>
+                <div class="lounge_text2">
+                    <img src="images/content2/lounge2.jpg" alt="북파크 카페 이미지">
+                    <div class="text2">
+                        <p>북파크 카페</p>
+                        <p>BOOKPARK CAFE</p>
+                        <p>프리미엄 카페가 입점되어 있어, 핸드드립 커피 등 30여개의 음료 메뉴를 즐기실 수 있습니다.<br>음료나 와인을 한 잔 하며 내 책처럼 읽을 수 있고 포근한 소파에 기대어 앉아 독서를 즐길 수 있습니다. <br><br>무엇보모든 신간을 자유롭게 볼 수 있는 매력적인 공간입니다. 편안하게 종이의 질감을 천천히 느끼고 글자와 행간을 <br>곱씹으며 잠시나마 소유해 봐도 된다는 얘기 입니다. 책을 읽다가 진심 마음에 들는 책이 있다면 책을 구입하면 됩니다.
+                        </p>
+                    </div>
+                </div>
+           </div>   
+        </article>                                    
+                                                                                
+<? include "../common/sub_foot.html" ?>       
+</body>
+</html>

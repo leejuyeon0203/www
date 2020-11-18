@@ -1,0 +1,262 @@
+/* 와이드 pc  */
+#wrap{overflow: hidden}
+#content>div{padding:100px 5% 0; margin-bottom:200px}
+
+#content h3{font-size:40px; font-weight:700; text-align:center; margin-bottom: 50px}
+
+.videoBox{width:100%;height:100%; overflow:hidden; position:absolute}
+#videoBG {
+   position:absolute; /*고정=>fixed/ 스크롤처리=>absolute */
+   left:50%;
+   top:50%; /*오른쪽, 아래에 여백을 두지않고 꽉차게 표시*/
+   width:auto;
+   min-width:100%; /*동영상 너비를 꽉차게*/
+   height:auto;
+   min-height:100%; /*동영상 높이를 꽉차게*/
+  transform:translateX(-50%) translateY(-50%);
+   z-index:-100; /*다른요소보다 아래에 위치*/
+}
+
+#imgBG{
+   position:absolute; /*고정=>fixed/ 스크롤처리=>absolute */
+   left:50%;
+   top:50%; /*오른쪽, 아래에 여백을 두지않고 꽉차게 표시*/
+   width:auto;
+   min-width:100%; /*동영상 너비를 꽉차게*/
+   height:auto;
+   min-height:100%; /*동영상 높이를 꽉차게*/
+   transform:translateX(-50%) translateY(-50%);
+   z-index:-100;
+   display:none
+}
+
+.down{display: block; font-size: 20px; position: absolute; 
+	 left:50%; margin-left: -70px; bottom: 20%;
+	animation:ani 1s infinite  alternate;}
+@keyframes ani {
+	0% { transform:scale(1); opacity:1; color:#fff;}
+	100% { transform:scale(1.2); opacity:0.8; color:#888;}
+}	
+
+/*con1*/
+#content .con1{position:relative}
+#content .con1 p{text-align:center; font-size:24px; color:#666; line-height:1.8em}
+#content .con1 ul{overflow:hidden; width:70%; margin:50px 15% 0; z-index:1}
+#content .con1 ul li{float:left; margin-right:2%; width:32%}
+#content .con1 ul li:last-of-type{margin-right:0}
+#content .con1 ul li img{width:100%}
+#content .con1 ul li p{font-size:14px; color:#fff; line-height:1.8em}
+
+/*scroll이벤트1*/
+#content .con1 .img1{position:absolute; left:-1000%; top:70px; opacity: 0; transition: all 1s}
+#content .con1 .boxMove{left:55px; opacity:1; width:470px}
+#content .con1 .img2{position:absolute; right:-1000%; top:670px; z-index:3; opacity: 0; transition: all 1s}
+#content .con1 .boxMove2{right:-90px; opacity: 1}
+
+/*scroll이벤트2*/
+#content .con1 .img3, #content .con1 .img4{display:none}
+#content .con1 .img3{position:absolute; left:-1000%; top:325px; opacity: 0; transition: all 1s; width:335px}
+/*#content .con1 .boxMove{left:-20px; opacity:1; width:380px}*/
+#content .con1 .img4{position:absolute; right:-1000%; top:-90px; z-index:3; opacity: 0; transition: all 1s}
+#content .con1 .boxMove2{right:-130px; opacity: 1}
+#content .con1 .img5{display:none}
+#content .con1 p{z-index:1}
+
+#content .bg{display: none; margin-bottom: 0}
+
+/*con2*/
+#content .con2{background:url("../images/trailer_bg.jpg") center no-repeat; background-size:cover; padding-bottom:100px; margin-bottom:0; position:relative}
+#content .con2 div{overflow:hidden}
+#content .con2 img{float:left; margin-right: 4%; width: 48%}
+#content .con2 a img{opacity:.8;}
+#content .con2 a:hover img{opacity:1;}
+#content .con2 p{float: right; font-size:24px; color:#666; width: 48%}
+#content .con2 p:first-of-type{color:#017bc4; font-size:33px; margin-top:60px;font-weight:700}
+#content .con2 p:nth-of-type(2){font-size:18px; line-height: 1.5em; margin-top:5px; text-indent:5px}
+#content .con2 p:last-of-type{line-height: 1.5em; margin-top:30px}
+
+/*con3*/
+#content .con3 ul{overflow:hidden}
+#content .con3 ul li{float:left; width:18.4%; margin-right:2%; text-align: center}
+#content .con3 ul li:last-of-type{margin-right:0}
+#content .con3 ul li img{border-radius:50%; border: 5px solid #017bc4; width: 100%; margin-bottom: 20px}
+#content .con3 ul li img:hover{transform: rotateY(180deg); transition: all .5s}
+
+/*scroll 이벤트*/
+#content .con3 ul{position: relative; left:-1000%; top:0; opacity: 0; transition: all 1s}
+#content .con3 .boxMove{left:0; opacity: 1}
+
+
+/*con4*/
+#content .con4{background:url(../images/series_bg.jpg)center no-repeat; background-size:cover; padding-bottom:100px; margin-bottom: 0}
+#content .con4 ul{overflow:hidden;padding:0 5%}
+#content .con4 ul li{float:left; width: 31.33%; margin-right: 3%}
+#content .con4 ul li:nth-of-type(2){margin-top:80px}
+#content .con4 ul li:last-of-type{margin-right:0}
+#content .con4 ul li img{width:100%}
+
+/*con5*/
+#content .con5 ul{overflow:hidden}
+#content .con5 img{width:100%}
+#content .con5 .imgs1 li{float:left; width:48.5%}
+#content .con5 .imgs1>li:nth-of-type(1){margin-right: 1.5%}
+#content .con5 .imgs2 li{float:left; width:32%; margin: 0 2% 12px 0}
+#content .con5 .imgs2 li:nth-of-type(3n){margin-right: 0}
+
+
+/* 일반 pc */
+@media screen and (max-width:1280px) {
+    #content .con1 h3{font-size:35px}
+    #content .con1 p{font-size:22px}
+    #content .con1 .img3, #content .con1 .img4{display:none}
+    #content .con3 h3{font-size:35px}
+    #content .con4 h3{font-size:35px}
+    #content .con5 h3{font-size:35px}
+    /*scroll이벤트*/
+    #content .con1 .img1{position:absolute; left:-1000%; top:117px; opacity: 0; transition: all 1s}
+    #content .con1 .boxMove{left:3px; opacity: 1; width:390px }
+    #content .con1 .img2{position:absolute; right:-1000%; top:640px; z-index:3; opacity: 0; transition: all 1s}
+    #content .con1 .boxMove2{right:-88px; opacity:1; width:380px}
+    
+    #content .con1 ul li h2{font-size:26px}
+    #content .con1 ul li p{font-size:12px; color:#fff; line-height:2em}
+    
+    #content .con2 p{font-size:18px;font-weight:400}
+    #content .con2 p:first-of-type{color:#017bc4; font-size:28px; margin-top:15px}
+    #content .con2 p:nth-of-type(2){font-size:16px; line-height: 1.5em; margin-top:10px; text-indent:0px}
+    #content .con2 p:last-of-type{line-height: 1.5em; margin-top:30px}
+}
+
+
+/* 테블릿 */
+@media screen and (max-width:1024px) {
+    #content>div{margin-bottom:90px}
+    #content .con1 h3{font-size:30px}
+    #content .con1 p{font-size:19px}
+    #content .con3 h3{font-size:30px}
+    #content .con4 h3{font-size:30px}
+    #content .con5 h3{font-size:30px}
+    
+    #content .con1 .img1, #content .con1 .img2{display:none}
+    #content .con1 ul li{margin-right:2%; width: 49%}
+    #content .con1 ul li:nth-of-type(2){margin-right:0;}
+    #content .con1 ul li:last-of-type{display:none}
+    #content .con1 .img3, #content .con1 .img4{display:block; opacity:1}
+    #content .con1 ul li h2{font-size:24px}
+    #content .con1 ul li p{font-size:12px; color:#fff; line-height:2em}
+    #content .bg{display: block; background: url("../images/trailer_bg.jpg"); height: 150px}
+    #content .bg span{position: relative; top: 40%}
+    
+        
+    #content .con1 .img3{position:absolute; left:-1000%; top:245px; opacity: 0; transition: all 1s; width:250px}
+    #content .con1 .boxMove{left:-10px; opacity:1; width:380px}
+    #content .con1 .img4{position:absolute; right:-1000%; top:-140px; z-index:3; opacity: 0; transition: all 1s; width:405px; transform:rotate(-5deg)}
+    #content .con1 .boxMove2{right:-90px; opacity: 1}
+    
+    #content .con2 img{width:100%; margin-bottom:50px}
+    #content .con2 p{width:100%; float:none; font-size:22px}
+    #content .con2 p:first-of-type{color:#017bc4; font-size:33px; clear:both; font-weight:700}
+    #content .con2 p:nth-of-type(2){font-size:20px}
+    #content .con2 p:last-of-type{margin-top:30px}
+    
+    #content .con3 h3{font-size:30px}
+    #content .con3 ul li{width:32%; margin-right:2%; padding-bottom:50px}
+    #content .con3 ul li:nth-of-type(3){margin-right:0}
+    #content .con3 ul li:nth-of-type(4){margin-left:20%; padding-bottom:0}
+    #content .con3 ul li:nth-of-type(5){padding-bottom:0}
+    
+
+    #content .con4{padding-bottom:50px}
+    #content .con4 ul{padding:0}
+    #content .con4 ul li{width:48.5%; margin-right:3%}
+    #content .con4 ul li:nth-of-type(2){display:none}
+    #content .con4 ul li:nth-of-type(3){margin-right:0}
+    #content .con4 ul{padding:0}
+    
+    #content .con5 .imgs1>li:nth-of-type(2){width:100%}
+    /*#content .con5 .imgs1>li:nth-of-type(1){width:100%; margin-right:0; padding-bottom:15px}*/
+    #content .con5 .imgs1>li:nth-of-type(1){display:none}
+    #content .con5 .imgs2{float:none; width:100%}
+    #content .con5 .imgs2 li{width:32%; margin-right:2%}
+}
+
+/* 소형 테블릿 */
+@media screen and (max-width:768px) {
+	#content .con1 h3{font-size:28px}
+    #content .con1 p{font-size:18px}
+    #content .con3 h3{font-size:28px}
+    #content .con4 h3{font-size:28px}
+    #content .con5 h3{font-size:28px}
+    
+    #content .con1 .img3{width:290px}
+    #content .con3 span{font-size:14px}
+    #content .con3 ul li img{border:3px solid #017bc4}
+    
+    #content .con2 p{font-size:17px}
+    #content .con2 p:first-of-type{font-size:30px}
+    #content .con2 p:nth-of-type(2){font-size:16px; }
+    #content .con2 p:last-of-type{line-height: 1.5em; margin-top:30px}
+
+    #content .con1 .img3{top:355px; width:270px}
+    #content .con1 .boxMove2{right:-94px}
+    #content .con1 .img4{top:-117px; width:370px; transform:rotate(-9deg)}
+}
+
+/* 모바일 */
+@media screen and (max-width:640px) {
+    #content .content>div{margin-bottom:0}
+    #content .con1 h3{font-size:26px}
+    #content .con1 p{font-size:16px}
+    #content .con3 h3{font-size:26px}
+    #content .con4 h3{font-size:26px}
+    #content .con5 h3{font-size:26px}
+    
+    #content .con1 .img3, #content .con1 .img4{display:none}
+    #content .con1 ul li{display:none}
+    #content>div{padding:50px 5% 0}
+    
+    #content .con3{margin-bottom: 50px}
+    #content .con3 ul li{width:37.5%; padding-bottom:35px}
+    #content .con3 ul li:nth-of-type(1){margin-right:5%}
+    #content .con3 ul li:nth-of-type(2){margin-right:20%}
+    #content .con3 ul li:nth-of-type(3){margin-left:20%; padding-bottom:0}
+    #content .con3 ul li:nth-of-type(4){margin-left:5%; margin-right:0; padding-bottom:0}
+    
+    #content .con3 ul li:nth-of-type(5){display:none}
+    #content .con4 ul{padding:0}
+    #content .con5{margin-bottom:100px}
+    #content .con5 .imgs2{float:none; width:100%}
+    #content .con5 .imgs2 li{width:49%; margin-right:2%}
+    #content .con5 .imgs2 li:nth-of-type(2){margin-right:0}
+    #content .con5 .imgs2 li:nth-of-type(5){margin-right:0}
+    #content .con5 .imgs2{float:none; width:100%}
+    #content .con5 .imgs2 li:nth-of-type(3n){display: none;}
+    
+    #content .con1{margin-bottom:200px}
+    #content .con1 .img5{display:block; position:absolute; left:-328px; margin-left:50%; top:280px; transition: all 1s; width:620px; z-index:-10; opacity:.5}
+    
+    #content .con2{padding-bottom:50px}
+    #content .con2 p:last-of-type{display:none}
+}
+
+/* 최소 사이즈 처리 */
+@media screen and (max-width:480px) {
+	#wrap { min-width:320px; }
+    #content .con1 h3{font-size:24px}
+    #content .con1 p{font-size:16px}
+    
+    #content .con2 h3{font-size:24px}
+    #content .con2 p:first-of-type{font-size:19px; font-weight:600}
+    #content .con2 p:nth-of-type(2){font-size:13px; line-height: 1.5em; margin-top:5px; text-indent:0}
+    #content .con2 img{margin-bottom:30px}
+    
+    #content .con5 .imgs2 li{margin:0 2% 10px 0}
+    #content .con1{margin-bottom:110px}
+    #content .con1 .img5{width:450px; top:290px; left:-238px}
+}
+
+@media screen and (max-width:340px) {
+    #content .con1{margin-bottom:70px}
+    #content .con1 .img5{width:430px; top:305px; left:-226px}
+}
+

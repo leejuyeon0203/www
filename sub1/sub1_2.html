@@ -1,0 +1,126 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION);
+?>
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <title>블루스퀘어-Convience</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/23c3575424.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="common/css/sub1common.css">
+    <link rel="stylesheet" href="css/content2.css">
+
+    <script src="../common/js/prefixfree.min.js"></script>
+    <!--[if IE9]>  
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <? include "../common/sub_head.html" ?>
+    <? $_GET['num']=2;
+          include "common/sub_nav.html"; ?>
+
+    <!-- 본문콘텐츠영역 -->
+    <article id="content">
+        <div class="title_area">
+            <div class="lineMap">
+                <span>home</span> &gt; <span>Blue Square</span> &gt; <strong>Convience</strong>
+            </div>
+            <div class="title">
+                <h2>Convience</h2>
+                <p>블루스퀘어는 관객들에게 더 풍성한 즐거움을 제공합니다</p>
+            </div>
+        </div>
+        <div class="content_area">
+            <ul class="tabs">
+                <li><a class="tab tab1" href="#none">Restuarant</a></li>
+                <li><a class="tab tab2" href="#none">Cafe</a></li>
+                <li><a class="tab tab3" href="#none">Studio</a></li>
+            </ul>
+            <div class="con contlist">
+                <div>
+                    <img src="images/content2/restaurant1.jpg" alt="레스토랑 스테이지B  이미지">
+                    <div class="text">
+                        <h3>레스토랑<br><span>스테이지 B</span></h3>
+                        <dl>
+                            <dt>외식과 문화과<br>공존하는 예술의 공간</dt>
+                            <dd>천연조미료와 산지제철 재료로 건강한<br>슬로우 푸드를 제고하는 이탈리안 비스트로 다이닝 </dd>
+                            <dd>위치 : 인터파크홀 1층(객석 3층)</dd>
+                        </dl>
+                    </div>
+                </div>
+                <ul>
+                    <li>
+                        <img src="images/content2/restaurant2.jpg" alt="스테이지B 이미지">
+                        <p><span>Marry Me, My Dear</span><br>한강과 서울 도심이 한눈에 내려다 보이는 유럽 정원풍 분위기의<br> 가든레스토랑과 Bar로 구성된 로맨틱 다이닝 바입니다.</p>
+                    </li>
+                    <li>
+                        <img src="images/content2/restaurant3.jpg" alt="스테이지B 이미지">
+                        <p><span>더 로맨틱</span><br>한강의 수려한 전망과 격조 높은 분위기에서 5천년 중국역사가 깃든 <br>
+                            특별하고 진귀한 미각의 세계로 여러분을 초대합니다.</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="con contlist">
+                <div>
+                    <img src="images/content2/cafe1.jpg" alt=" 카페 필로우B 이미지">
+                    <div class="text">
+                        <h3>cafe<br><span>필로우 B</span></h3>
+                        <dl>
+                            <dt>공연과 함께하는<br>테라스 카페</dt>
+                            <dd>모던하고 실용적인 인테리어와<br>분위기있는 테라스까지 감동과 철학이 있는 북카페 </dd>
+                            <dd>위치 : 인터파크홀 2층</dd>
+                        </dl>
+                    </div>
+                </div>
+                <ul>
+                    <li>
+                        <img src="images/content2/cafe2.jpg" alt="필로우B 이미지">
+                        <p><span>케익 갤러리</span><br>심플한 케이크부터 화려한 색감으로 시선을 사로잡는 케이크까지, <br> 입과 눈이 즐거운 케이크로 하루의 달콤함을 채워보세요.</p>
+                    </li>
+                    <li>
+                        <img src="images/content2/cafe3.jpg" alt="필로우B 이미지">
+                        <p><span>폴 인 브레드</span><br>취향에 따라 즐기는 프리미엄 원두 커피, 향미 가득한 카페에서 일상의 <br> 여유와 향긋함을 더해보세요.</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="con contlist">
+                <div>
+                    <img src="images/content2/studio1.jpg" alt="스튜디오 투핸즈 이미지">
+                    <div class="text">
+                        <h3>스튜디오<br><span>투 핸즈</span></h3>
+                        <dl>
+                            <dt>화가들이<br>운영하는 화방</dt>
+                            <dd>예술 창작을 위해 좋은 재료를 제공하며<br>좋은 작품을 감상하며 문화를 영유할 수 있는 공간.
+                            </dd>
+                            <dd>위치 : 인터파크홀 1층(객석 1층)</dd>
+                        </dl>
+                    </div>
+                </div>
+                <ul>
+                    <li>
+                        <img src="images/content2/studio2.jpg" alt="투핸즈 이미지">
+                        <p><span>유니크</span><br>저 세상 감성 소유자를 위한 아트북의 마지막 히든 카드.</p>
+                    </li>
+                    <li>
+                        <img src="images/content2/studio3.jpg" alt="투핸즈 이미지">
+                        <p><span>한남 클래스</span><br>창작을 위한 좋은 재료를 선별해 잠자던 뮤즈도 깨어날 수 있는 공간.</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </article>
+
+    <? include "../common/sub_foot.html" ?>
+    <script src="js/tab.js"></script>
+</body>
+
+</html>

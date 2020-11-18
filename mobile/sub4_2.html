@@ -1,0 +1,122 @@
+<!DOCTYPE HTML>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+
+<title>블루스퀘어-A seating chart</title>
+
+<link rel="apple-touch-icon-precomposed" href="app_icon.png">
+<link rel="apple-touch-startup-image" href="startup.png">
+<link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/common.css">
+<link rel="stylesheet" href="css/sub_common.css">
+<link rel="stylesheet" href="css/sub4_2.css">
+
+<script src="js/prefixfree.min.js"></script>
+<script>
+  // <![CDATA[
+  try {
+   window.addEventListener('load', function(){
+    setTimeout(scrollTo, 0, 0, 1); 
+   }, false);
+  } 
+  catch(e) {}
+  // ]]>
+ </script>
+
+ <script src="https://kit.fontawesome.com/23c3575424.js" crossorigin="anonymous"></script>
+ <!--[if lt IE 9]> 
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+    <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+<![endif]-->
+</head>
+
+<body>
+    <? include "head.html" ?>
+    <article id="content">
+        <div class="title_area">
+            <h3 class="hidden">Customer</h3>
+            <h2>A seating chart</h2>
+            <p>블루스퀘어는 관객들에게 더 풍성한 즐거움을 제공합니다</p>
+        </div>
+        <div class="content_area">
+            <ul class="hall tabs">
+                    <li class="tab tab1"><a href="#none">인터파크홀</a></li>
+                    <li class="tab tab2"><a href="#">아이마켓홀</a></li>
+            </ul>
+            <div class="contlist">
+                <h3 class="hidden">인터파크홀</h3>
+                <ul class="tabs2">
+                    <li class="tab2 hall1"><a href="#none">1F</a></li>
+                    <li class="tab2 hall2"><a href="#none">2F</a></li>
+                    <li class="tab2 hall3"><a href="#none">3F</a></li>
+                </ul>
+                <div class="hall1_seat1 contlist2 seat">
+                    <ul>
+                        <li>오케스트라 피트석 <span>76석</span></li>
+                        <li>휠체어석 <span>18석</span></li>
+                        <li>모자동반석 <span>14석</span></li>
+                    </ul>
+                    <p>1층 좌석배치도</p>
+                    <img src="images/sub4/hall1-1.jpg" alt="인터파크홀 1층 좌석배치도 이미지">
+                </div>
+                <div class="hall1_seat2 contlist2 seat">
+                    <ul>
+                        <li>객석 1층 좌석수 : <span>430석</span></li>
+                        <!--<li>오케스트라 피트석</li>
+                        <li>휠체어석</li>
+                        <li>모자동반석 </li>-->
+                    </ul>
+                    <p>2층 좌석배치도</p>
+                    <img src="images/sub4/hall1-2.jpg" alt="인터파크홀 2층 좌석배치도 이미지">
+                </div>
+                <div class="hall1_seat3 contlist2 seat">
+                    <ul>
+                        <li>객석 1층 좌석수 : <span>270석</span></li>
+                        <!--<li>오케스트라 피트석</li>
+                        <li>휠체어석</li>
+                        <li>모자동반석</li>-->
+                    </ul>
+                    <p>3층 좌석배치도</p>
+                    <img src="images/sub4/hall1-3.jpg" alt="인터파크홀 3층 좌석배치도 이미지">
+                </div>
+            </div>
+            <div class="contlist">
+                <h3 class="hidden">아이마켓홀</h3>
+                <ul class="tabs3">
+                    <li class="tab3 market1"><a href="#none">1F</a></li>
+                    <li class="tab3 market2"><a href="#none">2F</a></li>
+                </ul>
+                <div class="hall1_seat4 contlist3 seat">
+                    <p>1층 좌석배치도</p>
+                    <img src="images/sub4/hall2-1.jpg" alt="아이마켓홀 1층 좌석배치도 이미지">
+                </div>
+                <div class="hall1_seat5 contlist3 seat">
+                    <p>2층 좌석배치도</p>
+                    <img src="images/sub4/hall2-2.jpg" alt="아이마켓홀 2층 좌석배치도 이미지">
+                </div>
+            </div>
+        </div>
+    </article>
+    <!--푸터영역-->
+    <footer id="footerArea">
+        <ul>
+            <li><a href="#">운영방침</a></li>
+            <li><a href="#">개인정보처리방침</a></li>
+            <li><a href="#">TOP</a></li>
+        </ul>
+        <p>ⓒ BLUE SQUARE All rights reserved.</p>
+    </footer>
+
+  </div>
+  <script src="js/jquery-1.12.4.min.js"></script>
+  <script src="js/jquery-migrate-1.4.1.min.js"></script>
+  <script src="js/nav_new.js"></script>
+  <script src="js/tab.js"></script>
+
+</body>
+</html>

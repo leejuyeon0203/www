@@ -1,0 +1,169 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION);
+?>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>블루스퀘어-Event</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/23c3575424.js" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="common/css/sub5common.css">
+    <link rel="stylesheet" href="css/content1.css">
+    
+    <script src="../common/js/prefixfree.min.js"></script>
+    <!--[if IE9]>  
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+<body>
+    
+        <? include "../common/sub_head.html" ?>
+        <? $_GET['num']=1;
+          include "common/sub_nav.html"; ?>                        
+                                                                   
+        <!-- 본문콘텐츠영역 -->
+        <article id="content">
+            <div class="title_area">
+               <div class="lineMap">
+                   <span>home</span> &gt; <span>Customer</span> &gt; <strong>Event</strong>
+               </div>
+               <div class="title">
+                   <h2>Event</h2>
+                   <p>블루스퀘어가 당신과 함께 합니다</p>
+                </div>
+            </div>
+            <div class="content_area">
+                <div class="navBox">
+                <ul class="tabs subnav">
+                    <li><a class="tab tab1" href="javascript:void(0);">진행중인 이벤트</a></li>
+                    <li><a class="tab tab2" href="javascript:void(0);">종료된 이벤트</a></li>
+                </ul>
+                </div>
+                <div class="event_ing contlist nav">
+                    <ul class="events">
+                        <li>
+                            <img src="images/content1/event1.jpg" alt="이벤트01 이미지">
+                            <dl>
+                                <dt>여름, 음악 그리고 너 낭만식당!</dt>
+                                <dd>2020.06.07 Mon 6:00pm</dd>
+                            </dl>
+                            <div class="modal event1" style="transform: scaleX(0);"><img class="event1" src="images/content1/event1_1.jpg" alt=""></div>
+                        </li>
+                        <li>
+                            <img src="images/content1/event2.jpg" alt="이벤트02 이미지">
+                            <dl>
+                                <dt>Welecome 2020, 스위니토드 </dt>
+                                <dd>2020.6.24 ~ 2020.07.29 </dd>
+                            </dl>
+                             <div class="modal event2" style="transform: scaleX(0);"><img src="images/content1/event2_1.jpg" alt=""></div>
+                        </li>
+                        <li>
+                            <img src="images/content1/event3.jpg" alt="이벤트03 이미지">
+                            <dl>
+                                <dt>Summer Of BlueSquare 패키지</dt>
+                                <dd>2020.03.04 ~ 2020.06.25 </dd>
+                            </dl>
+                             <div class="modal event3" style="transform: scaleX(0);"><img src="images/content1/event3_1.jpg" alt="이벤트04 이미지"></div>
+                        </li>
+                        <li>
+                            <img src="images/content1/event4.jpg" alt="이벤트05 이미지">
+                            <dl>
+                                <dt>1만 그린하트 갤러리</dt>
+                                <dd>매주 금요일 상시 진행</dd>
+                            </dl>
+                             <div class="modal event4" style="transform: scaleX(0);"><img src="images/content1/event4_1.jpg" alt="이벤트06 이미지"></div>
+                        </li>
+                        <li>
+                            <img src="images/content1/event5.jpg" alt="">
+                            <dl>
+                                <dt>블루스퀘어패키지 특별 이벤트</dt>
+                                <dd>매주 일요일 상시 진행</dd>
+                            </dl>
+                            <div class="modal event5" style="transform: scaleX(0);"><img src="images/content1/event5_1.jpg" alt="이벤트07 이미지"></div>
+                        </li>
+                    </ul>
+                    <div class="modal_box"></div>
+                </div>
+                <div class="event_end contlist nav">
+                    <ul>
+                        <li>
+                            <div>
+                                <img src="images/content1/event7.jpg" alt="end_이벤트01 이미지">
+                                <dl>
+                                    <dt>코로나19 응원메세지 인증샷 이벤트</dt>
+                                    <dd>2020.03.18 ~ 2020.03.31</dd>
+                                </dl>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <img src="images/content1/event8.jpg" alt="end_이벤트02 이미지">
+                                <dl>
+                                    <dt>YOUTUBE 1+1 구독 이벤트</dt>
+                                    <dd>2019.12.17 ~ 2019.12.27</dd>
+                                </dl>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <img src="images/content1/event9.jpg" alt="end_이벤트03 이미지">
+                                <dl>
+                                    <dt>한 여름밤의 한야광 패키지 이벤트</dt>
+                                    <dd>2019.05.05 ~ 2019.05.26</dd>
+                                    
+                                </dl>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <img src="images/content1/event10.jpg" alt="end_이벤트04 이미지">
+                                <dl>
+                                    <dt>모차르트 예매자를 위한 이벤트!</dt>
+                                    <dd>2019.06.07 ~ 2019.01.13</dd>
+                                </dl>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <img src="images/content1/event11.jpg" alt="end_이벤트05 이미지">
+                                <dl>
+                                    <dt>VIP를 위한 특별 이벤트</dt>
+                                    <dd>2018.06.07 ~ 2019.01.13</dd>
+                                </dl>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <img src="images/content1/event12.jpg" alt="end_이벤트06 이미지">
+                                <dl>
+                                    <dt>유튜브 보고갈래? 구독 이벤트</dt>
+                                    <dd>2018.06.26 ~ 2018.09.01</dd>
+                                </dl>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <img src="images/content1/event13.jpg" alt="end_이벤트07 이미지">
+                                <dl>
+                                    <dt>한여름밤 광화문의 밤 이벤트!</dt>
+                                    <dd>2018.03.01 ~ 2018.05.01</dd>
+                                </dl>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+           </div>   
+        </article>                                    
+                                                                                
+<? include "../common/sub_foot.html" ?>    
+<script src="js/scroll.js"></script>        
+<script src="js/scroll2.js"></script>        
+<script src="js/modal.js"></script>               
+</body>
+</html>

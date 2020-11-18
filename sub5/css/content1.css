@@ -1,0 +1,46 @@
+/* event 본문 */
+.content_area{overflow:hidden;}
+.content_area .main_event img{float:left; width:670px; margin-bottom:100px}
+.content_area .main_event dl{float:right; width:380px; margin:60px 0 0 50px}
+.content_area .main_event dl dt{font-family: 'Nanum Gothic',sans-serif; font-size:32.5px; font-weight:800; color:#333; margin-bottom:10px}
+.content_area .main_event dl dd:nth-of-type(1){font-family: 'Nanum Gothic',sans-serif; font-size:25px; color:#169dd9; font-weight:600; margin-bottom:35px}
+.content_area .main_event dl dd:nth-of-type(2){font-family: 'Nanum Gothic',sans-serif; font-size:18px; color:#666; line-height:2em}
+.content_area .main_event{position:relative; overflow: hidden}
+.content_area .main_event p{position:absolute; top:380px; right:0px; border:1px solid #666; width:115px; height:30px; font-family: 'Nanum Gothic',sans-serif; font-size:16px; text-align:center; color:#666; padding-top:10px }
+.content_area .contlist ul{overflow: hidden}
+.content_area .contlist ul li{margin-bottom: 50px}
+.content_area .contlist ul li:nth-of-type(3){margin-right: 0}
+
+/*tbas*/
+.content_area .tabs{float:left; border-bottom:1px solid #dedede; margin-bottom:70px ;width:100%}
+.content_area .tabs li{float:left; width:50%; font-size:18px; font-weight:700; font-family: 'Nanum Gothic',sans-serif; text-align:center; padding:20px 0 20px 0}
+.content_area .tabs li a{display: block}
+.content_area .tabs li a:hover{color:#169dd9}
+.content_area .tabs{clear:both}
+.content_area .tabs a:hover::after{content:''; display:block; height:3px; background:#169dd9; position:relative; top:22px; left:0}
+.modal{position: fixed; left:50%; top:50%; z-index: 1001; width:800px; height:600px; margin-left:-400px; margin-top:-290px; transition:all .5s; width:744px; height:500px}
+.modal_box{display:none; position:fixed; left:0; top:0; z-index:1000; width:100%; height:100%; background-color:#7e7e7e; opacity: 0.5}
+
+/*event_ing*/
+.content_area .event_ing{clear:both; overflow:hidden; margin-top:100px}
+.content_area .event_ing ul li{float:left; width:350px; margin-right:25px; overflow:hidden}
+.content_area .event_ing ul li:last-child{margin-right:0}
+.content_area .event_ing ul li:hover{outline:8px solid #4689d0; outline-offset: -8px; transition-duration:0.2s}
+.content_area .event_ing ul li dl{border:1px solid #dedede; padding:23px 0 23px 20px; font-family:'Nanum Gothic',sans-serif; line-height:2em; width:328px}
+.content_area .event_ing ul li dl dt{font-size:20px; font-weight:700; color:#333}
+.content_area .event_ing ul li dl dd{font-size:14px; color:#666;}
+
+/*event_end*/
+.content_area .event_end{clear:both; overflow:hidden}
+.content_area .event_end ul li{float:left; width:350px; margin-right:25px}
+.content_area .event_end ul li:nth-of-type(3){margin-right:0}
+.content_area .event_end ul li:nth-of-type(6){margin-right:0}
+.content_area .event_end ul li div:hover{outline:8px solid #4689d0; outline-offset: -8px; transition-duration:0.2s}
+.content_area .event_end ul li dl{border:1px solid #dedede; padding:23px 0 23px 20px; font-family:'Nanum Gothic',sans-serif; line-height:2em; width:328px}
+.content_area .event_end ul li dl dt{font-size:20px; font-weight:700; color:#333}
+.content_area .event_end ul li dl dd{font-size:14px; color:#666}
+.navBox{background:#fff; position:relative}
+.spy{color: #169dd9}
+.spy::after{content:''; display:block; height:3px; background:#169dd9; position:relative; top:22px; left:0}
+#content .boxMove{right:0; opacity:1}
+.navOn{position: fixed; width: 100%; z-index:10; left:0; top: 0; height: 65px}

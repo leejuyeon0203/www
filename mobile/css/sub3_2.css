@@ -1,0 +1,17 @@
+/*Introduce > sub1_1*/
+#content{margin-top:65px}
+.content_area h4{font-family:'Nanum Gothic',sans-serif; font-size:18px; font-weight:700; margin:0px 0px 15px 30px; /*position:relative; width:100px; margin-left:-50px; left:50%;*/ }
+.content_area h4::after{content:''; display:block; width:240px; height:0.01px; border:1px solid #4689d0; position:relative; left:75px; top:-4px}
+.content_area ol{overflow:hidden; position:relative; width:350px; margin-left:-175px; left:50%}
+.content_area ol li{width:90px; height:90px; border-radius:90px; border:3px solid #4689d0; float:left; margin-right:30px; font-family: 'Nanum Gothic',sans-serif; font-size:14px; text-align:center; margin-bottom:70px}
+.content_area ol li:nth-of-type(3){margin-right:0}
+.content_area ol li:nth-of-type(4){clear:both; margin-bottom:100px}
+.content_area ol li:last-child{margin:0}
+.content_area ol li::after{content: ''; display:block; width:30px; height: 1px;  border:1px solid #4689d0; background:#4689d0; position:relative; bottom:47px; right:35px }
+.content_area ol li p{position:relative; top:27px; left:0; color:#333}
+.content_area ol li span:first-child{font-family: 'Roboto', sans-serif; color:#4689d0; font-size:18px; font-weight:600}
+.content_area ol li span:last-child{display:block; margin-top:40px; color:#666; font-size:12px}
+.content_area ul{font-family:'Nanum Gothic',sans-serif; padding:0px 20px}
+.content_area ul:nth-of-type(1){margin-bottom:50px}
+.content_area ul li{line-height:1.8em; margin-left:30px}
+.content_area ul li::before{content: ''; display:block; width:5px; height:5px; border-radius:3px; background:#4689d0; position:relative; top:15px; left:-15px}

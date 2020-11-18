@@ -1,0 +1,4 @@
+/* sub_common */
+#content .title_area{position:relative; width:400px; left:50%; margin-left:-200px; text-align:center; margin-top:110px}
+#content .title_area h2{font-family:'Roboto', sans-serif; font-weight:700; font-size:24px}
+#content .title_area p{font-family:'Nanum Gothic', sans-serif; margin-top:15px; margin-bottom:50px}

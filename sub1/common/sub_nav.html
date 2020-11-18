@@ -1,0 +1,38 @@
+<script>
+window.onload=function(){
+
+        var num = '<?=$_GET['num']?>';
+        var nav1= document.getElementById('nav1'); 
+        var nav2= document.getElementById('nav2');
+        var nav3= document.getElementById('nav3');
+        var nav4= document.getElementById('nav4');
+
+          if(num==1){
+              nav1.className='current';
+          }else if(num==2){
+              nav2.className='current';
+          }else if(num==3){
+              nav3.className='current';
+          }else if(num==4){
+              nav4.className='current';
+          }
+}
+</script> 
+
+
+<!-- 메인비주얼영역 -->
+<div class="visual">
+    <img src="common/images/sub_visual.jpg" alt="비주얼이미지">
+    <h3>Blue Square</h3>
+    <p>감동 가득한 공연과 쾌적한 환경을 제공할 것을 약속드립니다.</p>
+</div>                
+
+<!-- 서브네비영역 -->
+<div class="subNav">
+    <ul>
+        <li><a id="nav1" href="sub1_1.html">Introduce</a></li>
+        <li><a id="nav2" href="sub1_2.html">Convience</a></li>
+        <li><a id="nav3" href="sub1_3.html">A seating chart</a></li>
+        <li><a id="nav4" href="sub1_4.html">Direction</a></li>
+    </ul>
+</div>    

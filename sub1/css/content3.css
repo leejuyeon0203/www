@@ -1,0 +1,52 @@
+.content_area{overflow:hidden; text-align:center; font-size:18px; font-family:'Nanum Gothic',sans-serif; color:#666}
+.content_area p{font-size:30px; font-weight:700; margin-bottom:50px; font-family:'Nanum Gothic',sans-serif}
+.contlist2 img{width: 700px}
+
+/*tabs*/
+.content_area .tabs{margin-bottom: 55px;overflow:hidden}
+.content_area .tabs li{float:left; width:541px; height:35px; border:1px solid #dedede; padding-top:15px}
+.content_area .tabs .on{border:1px solid #169dd9; color:#169dd9; box-shadow:4px 4px 10px #dedede}
+.content_area .tabs li:last-child{float:right}
+.content_area .tabs li:hover{color:#169dd9; box-shadow:4px 4px 10px #dedede; border:1px solid #169dd9}
+.content_area .contlist{display: none}
+
+/*tabs2*/
+.content_area .tabs2{width:1100px; position:relative; top:-40px; left:44%; overflow:hidden; padding-top:50px}
+.content_area .tabs2 li{float:left; margin-right:40px; font-family:'Nanum Gothic',sans-serif; font-size:20px; font-weight:800}
+.content_area .tabs2 li a{color:#999}
+.content_area .tabs2 li a:hover{color:#333}
+.content_area .tabs2 li::after{content:''; display:block; width:5px; height:5px; border-radius:3px; background:#169dd9; position:relative; left:35px; top:-11px}
+.content_area .tabs2 li:last-of-type::after{display: none}
+.content_area .contlist2{display: none}
+.content_area .tabs2 .on2 a{color:#333}
+.content_area .contlist2{clear:both; overflow:hidden; width:1100px}
+.content_area .contlist2 ul{overflow:hidden}
+.content_area .contlist2 li{float:left; width:25%; text-align:center; margin-bottom:70px; font-weight:600; font-family:'Nanum Gothic',sans-serif; font-size:16px}
+.content_area .contlist2 li:nth-of-type(1)::before{content:''; width:16px; height:16px; display:block; background:#169dd9; position:relative; top:18px; left:25px}
+.content_area .contlist2 li:nth-of-type(2)::before{content:''; width:16px; height:16px; display:block; background:#d38b1c; position:relative; top:18px; left:33px}
+.content_area .contlist2 li:nth-of-type(3)::before{content:''; width:16px; height:16px; display:block; background:#b1b779; position:relative; top:18px; left:68px}
+.content_area .contlist2 li:nth-of-type(4)::before{content:''; width:16px; height:16px; display:block; background:#b478b6; position:relative; top:18px; left:60px}
+.content_area .contlist2 li:nth-of-type(1) span{color:#169dd9}
+.content_area .hall1_seat1 li:nth-of-type(2) span{color:#d38b1c}
+.content_area .hall1_seat1 li:nth-of-type(3) span{color:#b1b779}
+.content_area .hall1_seat1 li:nth-of-type(4) span{color:#b478b6}
+
+/*아아마켓홀*/
+/*tabs2*/
+.content_area .tabs2{width:1100px; position:relative; top:-40px; left:43%; overflow:hidden}
+.content_area .tabs2 li{float:left; margin-right:40px; font-family:'Nanum Gothic',sans-serif; font-size:20px; font-weight:800}
+.content_area .tabs2 li a{color:#999}
+.content_area .tabs2 li a:hover{color:#333}
+.content_area .tabs2 li::after{content:''; display:block; width:5px; height:5px; border-radius:3px; background:#169dd9; position:relative; left:35px; top:-11px}
+.content_area .tabs2 li:last-of-type::after{display: none}
+.content_area .contlist2{display: none}
+.content_area .tabs2 .on2 a{color:#333}
+
+/*tabs3*/
+.content_area .tabs3{width:1100px; margin:0 0 50px 500px; overflow:hidden}
+.content_area .tabs3 li{float:left; margin-right:40px; font-family:'Nanum Gothic',sans-serif; font-size:20px; font-weight:800}
+.content_area .tabs3 li a{color:#999}
+.content_area .tabs3 li a:hover{color:#333}
+.content_area .tabs3 li:nth-of-type(1)::after{content:''; display:block; width:5px; height:5px; border-radius:3px; background:#169dd9; position:relative; left:35px; top:-11px}
+.content_area .contlist3{display: none}
+.content_area .tabs3 .on3 a{color:#333}

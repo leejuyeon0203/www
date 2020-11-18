@@ -1,0 +1,222 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION);
+?>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    
+    <meta name='keywords' content='블루스퀘어, 뮤지컬, 북파크, 인터파크 , 뮤지컬 예매'>
+    <meta name='description' content='뮤지컬을 관람할 수 있는 공간 블루스퀘어'> 
+    <title>블루스퀘어</title>
+    <link rel="shortcut icon" type="image/x-icon"  href="favicon.ico" >
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="common/css/common.css">
+    <link rel="stylesheet" href="maincss/main.css">
+    <script src="mainjs/mainpopup.js"></script>
+    <script src="common/js/prefixfree.min.js"></script>
+    <script src="https://kit.fontawesome.com/23c3575424.js" crossorigin="anonymous"></script>
+
+    <!--[if IE9]>  
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+<body>
+        <? include "common/main_head.html" ?>
+        <div class="main">
+            <div class="gallery">
+                     <ul>
+                          <li><a href="#"><img src="images/main01.jpg" alt='뮤지컬 드라큘라 포스터'></a></li>
+                          <li><a href="#" ><img src="images/main02.jpg" alt='뮤지컬 맘마미아 포스터'></a></li>
+                          <li><a href="#" ><img src="images/main03.jpg" alt='뮤지컬 오페라의유령 포스터'></a></li>
+                          <li><a href="#" ><img src="images/main04.jpg" alt='뮤지컬 맨 오브 라만차 포스터'></a></li>
+                    </ul>
+             </div>
+             <div class="dock">
+              	<span class="mbutton  btn1" ></span>
+              	<span class="mbutton  btn2" ></span>
+             	<span class="mbutton  btn3" ></span>
+              	<span class="mbutton  btn4" ></span>
+              	<span class="ps" ></span>
+            </div>
+     	</div> 
+        <article id="content">
+            <h2 class="hidden">본문컨텐츠영역</h2>
+            <div class="content_inner">
+                <div class="content_top">
+                    <h3>PERFORMANCE</h3>
+                    <ul>
+                        <li>
+                           <img src="images/performance1.jpg" alt="포스터 드라큘라 이미지">
+                            <dl>
+                                <dt>드라큘라</dt>
+                                <dd>2020.08.27 ~ 2020.10.29</dd>
+                                <dd>브로드웨이 역사상 가장 매호적인 입맞춤 <br>2020년 오디션 컴퍼니가 선사하는 <br>또 하나의 대작한 여인을 사랑하기 위해..</dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <img src="images/performance2.jpg" alt="포스터 맘마미아 이미지">
+                            <dl>
+                                <dt>맘마미아</dt>
+                                <dd>2020.07.01 ~ 2020.09.25</dd>
+                                <dd>"인생은 짧고 세상은 넓어!"<br>전세계가 사랑하는 뮤지컬 대작 맘마미아! <br>뮤지컬 맘마미아와 멋진 추억 만들기..</dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <img src="images/performance3.jpg" alt="오페라의 유령 포스터 이미지">
+                            <dl>
+                                <dt>시라노</dt>
+                                <dd>2020.05.21 ~ 2020.08.22</dd>
+                                <dd>17세기 중엽의 파리, 시를 쓸 줄 아는 것이<br>곧 ‘지혜’이자 사랑하는 이를 지킬 수 있는 <br>검술이 곧 ‘힘’이었던 시대. 모두의 부러움을..</dd>
+                            </dl>
+                        </li>
+                    </ul>
+                    <a class="add" href="sub3/sub3_1.html">MORE &#43;</a>
+               </div>
+               <div class="content_mid1">
+                      <h3 class="hidden">EVENT</h3>
+                      <div class="mid1_all">
+                          <div class="event_slide">
+                           <div>   
+                               <ul class="mid1_1">
+                                   <li>
+                                       <div class="mid1_text">
+                                           <h4>여름, 음악 그리고 너</h4>
+                                           <p>도심에서 가볍게 즐기는 나를 위한 힐링 페스티벌</p>
+                                           <p><span>'낭만식당'의 메인 요리는 음악</span><br>
+                                           담백하고 감미로운 음악을 선보이는 낭만식당을 <br>이끄는 마스터는 '감성'이라는 연결 고리를 가진 <br>노리플라이와 멜로망스, 정승환 그리고 이루마다.</p>
+                                       </div>
+                                       <div class="mid_img">
+                                           <a href="sub5/sub5_1.html?a=1"><img src="images/event1.jpg?a=1" alt="이벤트 이미지"></a>
+                                       </div>
+                                   </li>
+                               </ul>
+                               <ul class="mid1_2">
+                                   <li>
+                                       <div class="mid1_text">
+                                           <h4>Welcome 2020</h4>
+                                           <p>Goodbye 스위니토드</p>
+                                           <p><span>2020 다이어리(티켓 수령시 증정)</span><br>Goodbye 2019 ! Welocme 2020! <br>스위니토드를 사랑해 주신 관객 여러분께 보답하기 <br>위해, 블루스퀘어가 특별한 선물을 준비했습니다.</p>
+                                       </div>
+                                       <div class="mid_img">
+                                           <a href="sub5/sub5_1.html?a=2"><img src="images/event2.jpg?a=2" alt="이벤트 이미지"></a>
+                                       </div>
+                                   </li>
+                               </ul>
+                               <ul class="mid1_3">
+                                   <li>
+                                       <div class="mid1_text">
+                                           <h4>블루스퀘어 프로모션</h4>
+                                           <p>블루스퀘어가 준비한 특별한 여름,<br>공연기간 동안 한정판 굿즈 증정 이벤트! <br><span>2020.06.20 ~ 2020.08.23</span></p>
+                                           
+                                       </div>
+                                       <div class="mid_img">
+                                           <a href="sub5/sub5_1.html?a=3"><img src="images/event3.jpg?a=3" alt="이벤트 이미지"></a>
+                                       </div>
+                                   </li>
+                               </ul>
+                          </div>
+                         </div>
+                         <ul class="mid1_button">
+                            <li><a href="#btn1" class="leftBtn button">prev</a></li>
+                            <li><a href="#btn2" class="RightBtn button">next</a></li>
+                         </ul>
+                     </div>   
+                </div>   
+                <div class="content_mid2">
+                    <div class="bookpark">
+                        <h3>BOOK PARK</h3>
+                    </div>
+                    <div class="bookpark_inner">
+                        <img src="images/bookpark2.jpg" alt="북파크이미지">
+                        <div class="book">
+                            <h4>책과 강연 그리고 프리미엄 라운지</h4>
+                            <p>북파크 라운지는 전문가가 추천한 좋은 책들을<br> 나만의 공간에서 마음껏 읽을 수 있는 고품격 문화 공간입니다.</p>
+                            <a href="sub2/sub2_1.html"><p class="move">이동하기</p></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="content_inner">
+                    <div class="content_bottom">
+                        <h3>INFO</h3>
+                        <!--최근게시물 삽입부-->
+                        <? include "lib/func2.php"; ?>
+                        <div class="col1">
+                        <ul>
+                            <? latest_article("information",3,20); ?>
+                            <!--information>정보 에서 3개의 li를 가지고 오고 20글자로 줄인다-->
+                            <!--
+                                <li>
+                                    <a href="#">
+                                        <img src="images/info3.jpg" alt="정보3이미지">
+                                        <dl>
+                                            <dt>NEW</dt>
+                                            <dd>'그렇고 그런 애들' 버스킹 공연<span>2020.08.27</span></dd>
+                                        </dl>
+                                    </a>
+                                </li>
+                            >-->
+                        </ul>
+                        </div>
+                        <div class="clear"></div>
+                        <a class="add" href="information/list.php">MORE &#43;</a>
+                    </div>
+                </div>
+                <div class="content_sns">
+                    
+                </div>
+                <div class="partner">
+                    <div class="partnerBox">
+                       <ul>
+                          <li class="p1"><a href="http://interpark.com " title="인터파크 새창으로 열림" target="_blank"><img src="images/partner1.jpg" alt="인터파크 새창으로 열림" /></a></li>
+                          <li class="p2"><a href="http://facebook.com" title="페이스북 새창으로 열림" target="_blank"><img src="images/partner2.jpg" alt="페이스북 새창으로 열림" /></a></li>
+                          <li class="p3"><a href="http://megabox.co.kr " title="메가박스 새창으로 열림" target="_blank"><img src="images/partner3.jpg" alt="메가박스 새창으로 열림" /></a></li>
+                          <li class="p4"><a href="http://subway.co.kr" title="서브웨이 새창으로 열림" target="_blank"><img src="images/partner4.jpg" alt="서브웨이 새창으로 열림" /></a></li>
+                          <li class="p5"><a href="http://hanssem.com" title="한샘 새창으로 열림" target="_blank"><img src="images/partner5.jpg" alt="한샘 새창으로 열림" /></a></li>
+                          <li class="p6"><a href="http://greenart.co.kr" title="그린컴퓨터아트학원 새창으로 열림" target="_blank"><img src="images/partner6.jpg" alt="그린컴퓨터아트학원 새창으로 열림" /></a></li>
+                          <li class="p7"><a href="http://lotteria.com" title="롯데리아 새창으로 열림" target="_blank"><img src="images/partner7.jpg" alt="롯데리아 새창으로 열림" /></a></li>
+                          <li class="p8"><a href="http://lghnh.com" title="LG생활건강 새창으로 열림" target="_blank"><img src="images/partner8.jpg" alt="LG생활건강 새창으로 열림" /></a></li>
+                          <li class="p9"><a href="http://starbucks.co.kr" title="스타벅스 새창으로 열림" target="_blank"><img src="images/partner9.jpg" alt="스타벅스 새창으로 열림" /></a></li>
+                          <li class="p9"><a href="http://youtube.com" title="유튜브 새창으로 열림" target="_blank"><img src="images/partner10.jpg" alt="유튜브 새창으로 열림" /></a></li>
+                      </ul>
+                    </div>
+                </div>  
+            </div>
+        </article>
+        
+    <? include "common/main_foot.html" ?>
+    
+    <!--이위치에 추가되는 스크립트를 연결하세요-->
+    <script src="mainjs/move.js"></script>
+    <script src="mainjs/arrow.js"></script>
+    
+    
+<!--  팝업공지영역 -->
+
+ <div id="showimage" style="z-index:99;position:absolute;width:322px;left:50px;top:150px;">
+       <script>
+ function closeWin(){
+       var chk = document.getElementById('Notice')
+       if ( chk.checked ) {
+             setCookie( "Notice", "done" , 1); //1이란 숫자는 1일간 안보임을 뜻합니다. 날짜는 자신에 맞게 수정하세요
+        }
+    }
+   if ( getCookie( "Notice" ) == "done" ) {
+       hidebox();
+   }
+       </script>
+    <div>
+          <img src="popup/pop.png" alt="본 사이트는 상업적 목적이 아닌 개인 포트폴리오 용도로 만들어졌습니다. 홈페이지의 일부 내용과 기타 이미지 등은 그 출처가 따로 있음을 밝힙니다.">
+    </div>
+     <div style="font-size:12px;text-align:center;color:#666;">
+       <input type="checkbox" name="Notice" id="Notice" value="" title="오늘은 이창을 열지 않음 선택상자"><label for="Notice">오늘은 이창을 열지 않음.</label>
+     <a href="#"  onclick="closeWin();hidebox();return false;"> [close] </a>
+  </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,7 @@
+/*Introduce > sub1_1*/
+.content_area table{width:90%; margin:0px 5%}
+.content_area table tr{border:1px solid #dedede; color:#333; font-family:'Nanum Gothic',sans-serif; }
+.content_area table tr th{padding:12px; border-right:1px solid #dedede}
+.content_area table tr td{padding:15px; border-right:1px solid #dedede; color:#666}
+.content_area table tr td p{line-height:1.8em; margin-left:15px}
+.content_area table tr td p::before{content:''; display:block; width:5px; height:5px; border-radius:3px; position:relative; left:-15px; top:17px; background-color:#4689d0}

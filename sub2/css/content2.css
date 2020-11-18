@@ -1,0 +1,43 @@
+/* all performances 본문 */
+.content_area{margin-bottom:200px}
+.content_area .bookpark_lounge{margin-bottom:50px}
+.content_area .bookpark_lounge h3{font-family: 'Roboto', sans-serif; font-size:40px; border-bottom:1px solid #dedede; padding-bottom: 10px; margin-bottom:50px}
+.content_area .bookpark_lounge h3::after{content:''; display:block; width:255px; height:2px; position:relative; left:0px; top:12px; background-color:#4689d0}
+.content_area .bookpark_lounge p{font-family: 'Nanum Gothic',sans-serif; font-size:16px; color:#333; line-height: 1.5em}
+.content_area .bookpark_lounge p:nth-of-type(1){color:#4689d0; font-size:20px; font-weight:600; margin-bottom:30px}
+
+/*lounge_text1*/
+.content_area .lounge_text1{position:relative; margin-bottom:100px}
+.content_area .lounge_text1 .text1{display: block; width: 1100px; height: 700px; background: rgba(0,0,0,.7); opacity: 0; transition: all .5s; position: absolute; left:0; top:0;}
+.content_area .lounge_text1 .text1:hover{opacity:1}
+.content_area .lounge_text1 .text1 p:first-child{font-family: 'Nanum Gothic',sans-serif; color:#fff; margin:300px 0 0 50px; font-size:50px; font-weight:700}
+.content_area .lounge_text1 .text1 p:nth-of-type(2){font-family: 'Roboto', sans-serif; color:#fff; margin:10px 0 0 50px; font-size:32px; border-bottom:2px solid #fff; width:500px}
+.content_area .lounge_text1 .text1 p:last-child{font-family: 'Nanum Gothic',sans-serif; width:1000px;  color:#fff;  font-size:20px; margin:25px 50px 0 50px; line-height: 2em}
+.content_area .lounge_text1{width:1100px; height:700px; overflow:hidden}
+.content_area .lounge_text1 img{transition:all 1s; transform: translate(-50px,0); opacity:.7}
+.content_area .lounge_text1:hover img{transform: translate(0,0);opacity:1}
+.content_area .lounge_text1 p:first-child{color:#fff; transform: translate(20px,50px); opacity:0; transition:all .6s}
+.content_area .lounge_text1:hover p:first-child{transform:translate(20px,0);opacity:1; color:#fff;transition-delay: .8s}
+.content_area .lounge_text1 p:nth-of-type(2){color:#fff; transform: translate(20px,50px); opacity:0; transition:all .6s}
+.content_area .lounge_text1:hover p:nth-of-type(2){transform:translate(20px,0);opacity:1; color:#fff;transition-delay: .8s;}
+.content_area .lounge_text1 p:last-child{color:#fff;transform: translate(-400px,0); opacity:0;
+transition:all .4s}
+.content_area .lounge_text1:hover p:last-child{transform: translate(20px,0);opacity:1; color:#fff; transition-delay: 1.2s}
+
+/*lounge_text2*/
+.content_area .lounge_text2{position:relative}
+.content_area .lounge_text2 .text2{display:block; width:1100px; height:700px; background: rgba(0,0,0,.7); opacity:0; transition:all .5s; position:absolute; left:0; top:0}
+.content_area .lounge_text2 .text2:hover{opacity:1}
+.content_area .lounge_text2 .text2 p:first-child{font-family: 'Nanum Gothic',sans-serif; color:#fff; margin:300px 0 0 50px; font-size:50px; font-weight:700}
+.content_area .lounge_text2 .text2 p:nth-of-type(2){font-family: 'Roboto', sans-serif; color:#fff; margin:10px 0 0 50px; font-size:32px; border-bottom:2px solid #fff; width:500px}
+.content_area .lounge_text2 .text2 p:last-child{font-family: 'Nanum Gothic',sans-serif; width:1000px; color:#fff; font-size:20px; margin:25px 50px 0 50px; line-height:2em}
+.content_area .lounge_text2{width:1100px; height:700px; overflow:hidden}
+.content_area .lounge_text2 img{transition:all 1s; transform: translate(-50px,0); opacity:.7}
+.content_area .lounge_text2:hover img{transform: translate(0,0);opacity:1}
+.content_area .lounge_text2 p:first-child{color:#fff; transform: translate(20px,50px); opacity:0; transition:all .6s}
+.content_area .lounge_text2:hover p:first-child{transform: translate(20px,0);opacity:1; color:#fff;transition-delay:.8s}
+.content_area .lounge_text2 p:nth-of-type(2){color:#fff; transform: translate(20px,50px); opacity:0; transition:all .6s}
+.content_area .lounge_text2:hover p:nth-of-type(2){transform:translate(20px,0);opacity:1; color:#fff;transition-delay:.8s}
+.content_area .lounge_text2 p:last-child{color:#fff;transform: translate(-400px,0); opacity:0;
+transition:all .4s}
+.content_area .lounge_text2:hover p:last-child{transform: translate(20px,0);opacity:1; color:#fff; transition-delay:1.2s}

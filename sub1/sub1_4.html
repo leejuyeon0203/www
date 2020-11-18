@@ -1,0 +1,148 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION);
+?>
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <title>블루스퀘어-Direction</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/23c3575424.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="common/css/sub1common.css">
+    <link rel="stylesheet" href="css/content4.css">
+    <script src="../common/js/prefixfree.min.js"></script>
+    <script src="//dapi.kakao.com/v2/maps/sdk.js?appkey=970f61afeb26ff01dbcaab3e85c4ea94"></script>
+    <script src="../map/js/map2.js"></script>
+    <!--[if IE9]>  
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <? include "../common/sub_head.html" ?>
+    <!-- 메인비주얼영역 -->
+    <div class="visual">
+        <img src="common/images/sub_visual.jpg" alt="비주얼이미지">
+        <h3>Blue Square</h3>
+        <p>감동 가득한 공연과 쾌적한 환경을 제공할 것을 약속드립니다.</p>
+    </div>
+
+    <!-- 서브네비영역 -->
+    <div class="subNav">
+        <ul>
+            <li><a href="sub1_1.html">Introduce</a></li>
+            <li><a href="sub1_2.html">Convience</a></li>
+            <li><a href="sub1_3.html">A seating chart</a></li>
+            <li><a class="current" href="sub1_4.html">Direction</a></li>
+        </ul>
+    </div>
+
+    <!-- 본문콘텐츠영역 -->
+    <article id="content">
+        <div class="title_area">
+            <div class="lineMap">
+                <span>home</span> &gt; <span>Blue Square</span> &gt; <strong>Direction</strong>
+            </div>
+            <div class="title">
+                <h2>Direction</h2>
+                <p>블루스퀘어는 관객들에게 더 풍성한 즐거움을 제공합니다</p>
+            </div>
+        </div>
+        <div class="content_area">
+            <div id="map"></div>
+            <h3>대중교통</h3>
+            <div class="move1">
+                <table class="move_info1">
+                    <caption class="hidden">대중교통 이용시 찾아오시는길</caption>
+                    <thead>
+                        <tr>
+                            <th scope="col" colspan="2">버스이용</th>
+                            <th scope="col">지하철이용</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row"><span>한강진역 하차</span><br>(1번 출구 방면)</th>
+                            <td>간선 : 110A, 405 ,400</td>
+                            <td rowspan="2">6호선 <span>한강진역 2번출구와 3번출구 사이</span> 지하철역 연결통로</td>
+                        </tr>
+                        <tr>
+                            <th scope="row"><span>한강진역 하차</span><br>(2번 출구 방면)</th>
+                            <td>
+                                간선 : 110B, 405 ,400 <br>순환 : 03 <br>공황 : 6030
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <h3>자가용</h3>
+            <div class="move2">
+                <table class="move_info2">
+                    <caption class="hidden">자가용 이용시 찾아오시는길</caption>
+                    <thead>
+                        <tr>
+                            <th scope="col">진입도로</th>
+                            <th scope="col">자가용</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">강남 방면</th>
+                            <td>한남대교 진입 &gt; 한남대로 직진 &gt; 북한남 삼거리 좌회전 &gt; 신호등 좌회전하여 한강진역 2번 출구와 3번 출구
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">장충동 방면</th>
+                            <td>한남대로 진입하여 직진 &gt; 북한남 삼거리 지나 이태원로 진입 &gt; 한강진역 2번 출구 우측 지하주차장 입구로 진입
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">이태원동 방면</th>
+                            <td>주소 : 서울시 용산구 이태원로 272<br>요금 : 5분 당 250원 <br>운영시간 : 24시간운영</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <h3>주차요금</h3>
+            <ul class="move3_text">
+                <li><span>&#8226;</span> 공연관람객 : 4시간 5,000원(4시간 초과 시 10분단 1,000원 부과)</li>
+                <li><span>&#8226;</span> 카페 필로스 : 평일 18 이전, 1시간 주차권 1,000원 판매(1인 1매 한정)</li>
+                <li><span>&#8226;</span> 식사 : 2시간 초과시 10분당 1,000원 / 공연+식사 : 6시간 초과시 10분당 1,000원</li>
+            </ul>
+            <div class="move3">
+                <table class="move_info3">
+                    <caption class="hidden">주차요금 안내</caption>
+                    <thead>
+                        <tr>
+                            <th scope="col">구분</th>
+                            <th scope="col">식사</th>
+                            <th scope="col">공연 + 식사</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">평일<br><span>(1회 공연시)</span></th>
+                            <td>11:00 ~ 16:00 : 무료<br>3만원 이상 : 2시간무료<br>3만원 이하 : 2,000원</td>
+                            <td>18:00 ~ 이후 : 5,000원 (6시간권)</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">주말</th>
+                            <td>3만원 이상 : 2시간무료<br>3만원 이하 : 2,000d원</td>
+                            <td>5,000원 (6시간권)</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </article>
+
+    <? include "../common/sub_foot.html" ?>
+</body>
+
+</html>

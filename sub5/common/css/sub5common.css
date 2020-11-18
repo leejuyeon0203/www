@@ -1,0 +1,26 @@
+/* 1depth의 공통 */
+
+.visual{width:2000px; height:350px; position:relative; left:50%; margin-left:-1000px; margin-top:100px}
+
+.visual h3, .visual p{width:1200px; margin:0 auto;}
+.visual h3{font-size:40px; color:#fff; font-family: 'Roboto', sans-serif; font-weight:500; position:absolute; top:100px; left:47%; margin-bottom:25px}
+.visual p{font-size:16px; color:#fff; font-family: 'Roboto', sans-serif;  position:absolute; top:170px; left:45%;}
+
+.subNav{width:1100px; height:100px; margin: 0 auto; position:relative; top:-100px; left:0; margin-bottom: -50px}
+.subNav ul{overflow:hidden; background:#fff; height: 100px}
+.subNav ul::before{content:''; display:block; width: 960px; height: 1px; background:#ccc; position: absolute; left:70px; top:70px}
+
+.subNav ul li{width:17%; float:left; text-align:center; font-size:18px; font-family: 'Roboto', sans-serif; letter-spacing: -1px; margin-left: 70px}
+.subNav ul li a{display:block; padding:30px 0 17px 0}
+.subNav ul li a:hover{font-weight:700; color:#169dd9; letter-spacing:-1px}
+.subNav ul li .current{font-weight: 700; color:#169dd9; letter-spacing: -1px; border-bottom: 3px #169dd9 solid; z-index: 99; position: relative}
+.subNav ul li .current::after{display: block; content: ''; width: 0; height: 0; border-bottom: 100px solid #169dd9; border-bottom: 13px solid #169dd9; border-left: 8px solid transparent; border-right: 8px solid transparent; position: absolute; left: 47%; bottom: -8px}
+
+
+#content{width:1100px; margin:0 auto}
+#content .title_area .lineMap{text-align: right; color:#999; margin-bottom:50px}
+#content .title_area .title h2{font-size:60px; font-weight:700; color:#333; margin-bottom:40px; font-family: 'Roboto', sans-serif; text-align:center}
+#content .title_area .title p{font-size:18px; color:#666;  font-family: 'Nanum Gothic',sans-serif; margin-bottom:100px; text-align:center}
+
+
+#content .content_area{margin-bottom:200px}

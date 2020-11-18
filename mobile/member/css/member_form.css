@@ -1,0 +1,44 @@
+body{background-color:#f2f2f2; width:100%; font-family: 'Roboto', sans-serif; }
+body .wrap{background-color:#fff; border-radius:3%; border:3px solid #169dd9; margin:50px 5%}
+#content{width:90%; margin:40px 5%; position:relative}
+input, select{padding:1.5%; border-radius: 2px; font-size: 1.1em; border: 0; background: rgba(204,204,204,.5); outline: none; width: 640px}
+
+h2{text-align:center; font-size:35px; position:relative; width:100%; margin:0 auto 50px}
+h2 a{text-decoration:none}
+h2::before{content:''; display:block; width:35px; height:35px; border:4px solid #169dd9; margin:0 auto 5px}
+h2 span{color:#169dd9}
+
+input{width:97%}
+
+/*form.jonBox{width:100%}*/
+.joinBox div{margin-bottom: 10px}
+.joinBox input{height:30px}
+.joinBox .nameBox{float:left; width:49%}
+.joinBox .nameBox1{float: right; position: relative}
+#loadtext{position:absolute; top:3px; right:5px; font-size:12px; width:100%}
+
+/*.idBox input[type="button"] { padding-left: 0px; margin-left: 10px; width: 188px; background-color: #ccc; color: #333; }*/
+.idBox{position:relative}
+.idBox{/*background:#169dd933; height:75px; padding-left:30px; */vertical-align:middle}
+.idBox p{font-size:20px; line-height:35px}
+.idBox span{position:absolute; top:13px; right:20px; font-size:11px; color:rgba(204,204,204,.5); color:#169dd9; font-weight:bold}
+.idBox2{background:#169dd933; /*height:75px;*/ height:40px;/* padding-left:30px*/ padding-left:7px}
+
+.pwBox .mb10{margin-bottom: 10px}
+#loadtext2{ position: absolute; top: 3px; right: 5px; font-size: 12px; }
+#loadtext2 span{font-weight:bold}
+
+.genLb {display: inline-block; width: 20px; height: 20px; border: 0px; border-radius: 15px; background-color: #e5e5e5; cursor: pointer; margin: 29px 0; }
+.genTxt {font-size: 20px; line-height: 20px; margin: 0 20px 0 8px; color: #777}
+.telBox {clear: both}
+.telBox select {width:20%; border: 0px; font-size:14px; color: #777; height:41px}
+.telBox input {width:30%}
+.mailBox input {width:44%}
+
+.subMit{margin-top:38px}
+.subMit input { padding-left: 0px; width:100%; height:60px; font-size:16px; font-weight:600}
+.subMit input[type="button"] {color:#fff; background-color:#169dd9}
+.subMit input[type="reset"], .subMit input[type="button"] { background-size: 680px 100%; }
+
+/*모바일 아이폰에서 안깨지게 해주기*/
+scale, select, input[type=button], input[type=submit], input[type=reset]{-webkit-appearance:none;}

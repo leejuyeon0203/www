@@ -1,0 +1,96 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION);
+?>
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <title>블루스퀘어-Promote video</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/23c3575424.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="common/css/sub5common.css">
+    <link rel="stylesheet" href="css/content4.css">
+
+    <script src="../common/js/prefixfree.min.js"></script>
+    <!--[if IE9]>  
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+    <? include "../common/sub_head.html" ?>
+    <? $_GET['num']=4;
+          include "common/sub_nav.html"; ?>
+
+    <!-- 본문콘텐츠영역 -->
+    <article id="content">
+        <div class="title_area">
+            <div class="lineMap">
+                <span>home</span> &gt; <span>Customer</span> &gt; <strong>Promote video</strong>
+            </div>
+            <div class="title">
+                <h2>Promote video</h2>
+                <p>블루스퀘어가 당신과 함께 합니다</p>
+            </div>
+        </div>
+        <div class="content_area">
+            <div class="wrap_video">
+                <div class="video_main">
+                    <iframe width="560" height="315" name="ifr" src="https://www.youtube.com/embed/jxl_hZldALU" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <P class="info">#오페라의유령 #뮤지컬오페라의유령 #월드투어<span>뮤지컬 오페라의 유령 공연 하이라이트</span></P>
+                </div>
+            </div>
+            <div>
+                <ul class="videos">
+                    <li class="video video1">
+                        <a href="https://www.youtube.com/embed/jxl_hZldALU" target="ifr"><img src="images/content4/musical1.jpg" alt="뮤지컬 오페라의유령 동영상"></a>
+                        <p>#오페라의유령 #뮤지컬오페라의유령 #월드투어<span>뮤지컬 오페라의 유령 공연 하이라이트</span></p>
+                        <i class="fab fa-youtube"></i>
+                    </li>
+                    <li class="video video2">
+                        <a href="https://www.youtube.com/embed/xhnGWHK6v5Q" target="ifr"><img src="images/content4/musical2.jpg" alt="뮤지컬 맨오브라만차 동영상"><i class="fab fa-youtube"></i></a>
+                        <p>#맨오브라만차 #뮤지컬맨오브라만차 #블루스퀘어<span>뮤지컬 맨오브라마차의 공연 하이라이트</span></p>
+
+                    </li>
+                    <li class="video video3">
+                        <a href="https://www.youtube.com/embed/4XGqCDewWx4" target="ifr"><img src="images/content4/musical3.jpg" alt="뮤지컬 위키드 동영상"><i class="fab fa-youtube"></i></a>
+                        <p>#위키드 #위키드 #블루스퀘어<span>뮤지컬 위키드의 공연 하이라이트</span></p>
+
+                    </li>
+                    <li class="video video4">
+                        <a href="https://www.youtube.com/embed/-ypcP60fLug" target="ifr"><img src="images/content4/musical4.jpg" alt="뮤지컬 킹키부츠 동영상"></a>
+                        <p>킹키부츠 #뮤지컬킹키부츠 #블루스퀘어<span>뮤지컬 킹키부츠의 공연 하이라이트</span></p>
+                        <i class="fab fa-youtube"></i>
+                    </li>
+                    <li class="video video5">
+                        <a href="https://www.youtube.com/embed/DrDLaOJwfEk" target="ifr"><img src="images/content4/musical5.jpg" alt="뮤지컬 드라큘라 도영상"></a>
+                        <p>드라큘라 #뮤지컬드라큘라 #블루스퀘어<span>뮤지컬 드라큘라의 공연 하이라이트</span></p>
+                        <i class="fab fa-youtube"></i>
+                    </li>
+                    <li class="video video6">
+                        <a href="https://www.youtube.com/embed/IkuVD3gzt6Q" target="ifr"><img src="images/content4/musical6.jpg" alt="뮤지컬 모차르트 동영상"></a>
+                        <p>모차르트 #뮤지컬모차르트 #블루스퀘어<span>뮤지컬 모차르트의 공연 하이라이트</span></p>
+                        <i class="fab fa-youtube"></i>
+                    </li>
+                </ul>
+            </div>
+            <ul class="page">
+                <li><i class="fas fa-angle-left"></i></li>
+                <li><a class="current_page" href="#">1</a></li>
+                <li><i class="fas fa-angle-right"></i></li>
+            </ul>
+        </div>
+    </article>
+
+    <? include "../common/sub_foot.html" ?>
+    <script src="js/tab2.js"></script>
+</body>
+
+</html>

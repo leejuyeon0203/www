@@ -1,0 +1,129 @@
+/*title*/
+#list_top_title,#view_title,#write_form_title {overflow: hidden;padding:5px 0; border-top:solid 2px #333;border-bottom: 1px solid #aaa;font-family: 'Nanum Gothic', sans-serif}
+
+
+#page_button{margin-top:20px}
+#page_button i{color: #999}
+#page_button i:hover{color: #333; cursor: pointer}
+
+#page_num {width:100%; float:left;margin:50px 0 100px; text-align:center; }
+#button{float:right; text-align:right}
+#button>a{border:1px solid #ccc; padding:5px 10px; border-radius:3px}
+#button>a:hover{background-color:#169dd9; color:#fff}
+
+
+
+/* list css */
+.content_area form{overflow:hidden; font-family:'Roboto',sans-serif}
+.content_area #list_search{float:left; font-size:14px}
+.content_area select{float:left; font-size:14px; margin:12px 0 7px; border:1px solid #ccc; border-radius:3px; padding:3px}
+#list_search{height:30px; padding-top:10px}
+
+#list_top_title{height:17px; padding:12px; border-top:solid 2px #aaaaaa; border-bottom:solid 1px #aaa; margin-bottom:3px}
+#list_top_title li{display:inline; font-weight:bold; color:#4689d0; margin-left:55px}
+#list_top_title #list_title1{margin-left:28px}
+#list_top_title #list_title2{margin-left:370px}
+#list_top_title #list_title3{margin-left:420px}
+/*#list_top_title #list_title4{margin-left:48px}
+#list_top_title #list_title5{margin-left:32px}*/
+
+
+#list_content{height:450px}
+.list_item{height:18px; padding:9px; border-bottom:solid 1px #eeeeee}
+.list_item .list_item1{float:left; width:109px; text-align:center}
+.list_item .list_item2{float:left; width:715px; text-align:center}
+.list_item .list_item3{float:left; width:95px; text-align:center; margin-left:55px}
+.list_item .list_item4{float:left; width:95px; text-align:center}
+.list_item .list_item5{float:left; width:45px; text-align:center}
+
+
+div.list_item2_1{float:left; width:85px; text-align:center}
+
+#sch {float:right;border:1px solid #ccc;background:#fff;border-radius:3px; width: 330px; padding:3px 0}
+#sch:after {display:block;visibility:hidden;clear:both;content:""}
+#sch select{border:0;margin:0 5px;float:left;border-right:1px solid #ddd}
+#sch .sch_input{border:0;background-color:transparent;float:left; margin-top:5px}
+#sch .sch_btn{float:right;background:none;border:0;width:40px;font-size:15px}
+#sch button i{margin-top:5px}
+
+#page_button{margin-top:20px}
+#page_button i{color: #999}
+#page_button i:hover{color: #333; cursor: pointer}
+
+#page_num {width:100%; float:left;margin:50px 0 100px; text-align:center; }
+#button{float:right; text-align:right}
+#button>a{border:1px solid #ccc; padding:5px 10px; border-radius:3px}
+#button>a:hover{background-color:#169dd9; color:#fff}
+
+
+
+/* write_form css */
+#write_form_title{margin-bottom:20px; overflow:hidden; padding:40px 0; border-top:solid 2px #4689d0; border-bottom:1px solid #aaa; text-align:center; font-size:18px; font-weight:bold; background-color:#f2f2f2}
+
+#write_form,#write_form div{overflow: hidden}
+#write_form #write_row1 {height:35px}
+#write_form #write_row2 {height:35px; clear: both}
+#write_form #write_row3 {clear: both}
+/*#write_row4, #write_row5, #write_row6{margin-bottom:7px}*/
+
+.write_line {border-bottom:solid 1px #ccc}
+
+#write_form .col1 {float:left;width:120px;text-align:center;padding:5px; font-weight: 700; ;font-family: 'Nanum Gothic', sans-serif; color: #444}
+#write_form #write_row3 .col1 {height:126px;padding-top:110px}
+
+#write_form .col2{font-size: 18px}
+#write_form #write_row1 .col2 {float:left; margin-top:3px}
+#write_form #write_row1 .col3 {float:left;margin-top:4px;margin-left:100px}
+
+#write_row2 .col2 input {width:900px;height:25px; border:solid 1px #ccc; font-size: 16px}
+
+#write_row3 .col2 textarea{margin:7px 0; border:solid 1px #ccc; width: 900px; resize: none; outline: none; height: 250px; font-size: 14px; line-height: 1.5em}
+
+
+.delete_ok {margin-left: 140px; font-size: 14px}
+
+
+/* view.php css */
+#view_comment{margin:10px 0 0 10px;}
+#view_title{height:18px; padding:10px 8px 65px 8px; border-top:solid 2px #4689d0; background-color:#f2f2f2; margin-bottom:5px; border-bottom:1px solid #ccc; font-family: 'Nanum Gothic', sans-serif}
+#view_title1{float:left; width:1100px; text-align:center; margin-top:20px; font-size:20px; font-weight:700 }
+#view_title2{float:left; text-align:right; margin-top:15px; width:1080px;  padding-bottom:5px}
+
+#view_content {
+	width:97.5%;
+	min-height:200px;
+	padding:15px;
+	overflow:hidden;
+	line-height:150%;
+	border-bottom:solid 1px #cccccc;
+}
+
+#view_button{width:100%; text-align:right; margin:35px 0 100px; font-family:'Roboto',sans-serif}
+#view_button a{border:1px solid #ddd; border-radius:3px; padding:3px 7px; font-size:14px}
+#view_button a:hover{background-color:#169dd9; color:#fff}
+
+/* ripple css */
+#ripple_writer_title {padding-top:10px}
+#ripple_writer_title ul {margin-left:5px; overflow: hidden; position: relative}
+#ripple_writer_title ul li{float: left}
+
+#writer_title1 {margin-left:10px; font-weight:700}
+#writer_title2 {margin-left:20px; font-size: 14px; color: #666}
+#writer_title3 {position: absolute; right: 20px; font-size: 16px; color: #666}
+#writer_title3:hover{font-weight: 700; letter-spacing: -1px}
+
+#ripple_content {padding:10px; margin-left:15px;line-height:1.5em; font-size: 16px}
+
+.hor_line_ripple {border-bottom:solid 1px #efefef}
+
+#ripple_box {padding:8px}
+#ripple_box1 {font-weight:700; font-size:20px; font-family:'Nanum Gothic', sans-serif; margin-left:5px}
+#ripple_box2{float:left; margin:5px}
+#ripple_box2 textarea{border:solid 1px #ccc; resize: none; outline: none; width: 950px; height: 90px; font-size: 16px; line-height: 1.5em}
+#ripple_box3{float:right;margin:5px 5px 0 0}
+#ripple_box3 input{background:#fff; padding:37px}
+#ripple_box3 input:hover{color:#fff; background:#169dd9; font-weight:bold; letter-spacing: -1px}
+
+#write_button{float:right; margin:10px 0}
+#write_button a{border:1px solid #ddd; padding:3px 7px; border-radius:3px}
+#write_button a:hover{color:#fff; background:#169dd9}

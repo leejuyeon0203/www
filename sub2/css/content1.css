@@ -1,0 +1,47 @@
+/* BookPark 본문 */
+
+/*bookpark1*/
+.content_area .bookpark1{overflow:hidden; margin-bottom:100px}
+.content_area .bookpark1 img{float:left; transition:0.3s; margin:20px 0 20px 20px; border:1px solid #dedede}
+.content_area .bookpark1 img:hover{transform:scale(1.05)}
+.content_area .bookpark1 .bookpark_text1{float:right; width:500px; margin:135px 0 0 40px; font-family: 'Roboto', sans-serif}
+.content_area .bookpark1 .bookpark_text1 h3{font-weight:600; font-size:50px; margin:110px 0 40px 0; color:#333; border-bottom:2px solid #666; width:250px; padding-bottom:10px}
+.content_area .bookpark1 .bookpark_text1 p{line-height: 1.5em}
+.content_area .bookpark1 .bookpark_text1 span{color:#4689d0; font-weight:600}
+.content_area .bookpark1 .bookpark_text1 p:nth-of-type(1){font-size:24px; font-weight:800; color:#4689d0; margin-bottom:10px}
+.content_area .bookpark1 .bookpark_text1 p:nth-of-type(2){font-size:18px; color:#666; margin-bottom:20px}
+
+/*bookpark2*/
+.content_area .bookpark2{overflow:hidden; margin-bottom:100px}
+.content_area .bookpark2 img{float:right; transition:0.3s; margin:20px 20px 20px 20px; border:1px solid #dedede}
+.content_area .bookpark2 img:hover{transform:scale(1.05);}
+.content_area .bookpark2 .bookpark_text2{float:left; width:500px; margin:320px 28px 0 0; font-family: 'Roboto', sans-serif}
+.content_area .bookpark2 .bookpark_text2 h3{font-weight:600; font-size:50px; margin:110px 0 40px 0; color:#333; border-bottom:2px solid #666; width:190px; padding-bottom:10px}
+
+.content_area .bookpark2 .bookpark_text2 p{line-height: 1.8em}
+.content_area .bookpark2 .bookpark_text2 span{color:#4689d0; font-weight:600}
+.content_area .bookpark2 .bookpark_text2 p:nth-of-type(1){font-size:24px; font-weight:800; color:#4689d0; margin-bottom:10px}
+.content_area .bookpark2 .bookpark_text2 p:nth-of-type(2){font-size:18px; color:#666; margin-bottom:20px}
+
+/*bookpark3*/
+.content_area .bookpark3{overflow:hidden}
+.content_area .bookpark3 img{float:left; transition:0.3s; margin:20px 0 20px 20px; border:1px solid #dedede;}
+.content_area .bookpark3 img:hover{transform:scale(1.05);}
+.content_area .bookpark3 .bookpark_text3{float:right; width:500px; margin:200px 0 0 40px; font-family: 'Roboto', sans-serif}
+.content_area .bookpark3 .bookpark_text3 h3{font-weight:600; font-size:50px; margin:110px 0 40px 0; color:#333; border-bottom:2px solid #666; width:190px; padding-bottom:10px}
+.content_area .bookpark3 .bookpark_text3 p{line-height: 1.8em}
+.content_area .bookpark3 .bookpark_text3 span{color:#4689d0; font-weight:600}
+.content_area .bookpark3 .bookpark_text3 p:nth-of-type(1){font-size:24px; font-weight:800; color:#4689d0; margin-bottom:10px}
+.content_area .bookpark3 .bookpark_text3 p:nth-of-type(2){font-size:18px; color:#666; margin-bottom:20px}
+
+/*boxmove*/
+.content_text .current1{position:relative; right:-1000px; top:0; opacity: 0; transition:all .8s}
+.content_text .current2{position:relative; left:-1000px; top:0; opacity: 0; transition:all .8s}      
+.content_text .bookpark_text1{height:400px}
+.content_text .bookpark_text2{height:400px}
+.content_text .bookpark_text3{height:400px}
+
+/* .boxMove 클래스명이 붙으면 right값이 옮겨지고 opactiy가 변신 => 목적값(scroll animation) */
+.content_text .book_scroll.boxMove{right:0; opacity:1}
+.content_text .book_scroll.boxMove2{left:0; opacity:1}
+.text{position:fixed; right:0; top:0; font-size:50px; z-index:100}

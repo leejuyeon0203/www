@@ -1,0 +1,10 @@
+/*all performance > sub2_1*/
+.content_area{width:100%}
+.content_area ul li{overflow:hidden; border-bottom:1px solid #e2e2e2; position:relative}
+.content_area ul li div{width:30%; float:left;}
+.content_area ul li div img{width:95%; margin:20px 0px 20px 13%}
+.content_area ul li:first-child div img{margin-top:0}
+.content_area ul li dl{float:left; width:70%;font-family:'Nanum Gothic', sans-serif; position:absolute; bottom:16px; left:33%}
+.content_area ul li dl dt{font-size:20px; margin-top:110px; margin-bottom:20px; margin-left:15px; font-weight:700}
+.content_area ul li dl dd{font-size:16px; line-height:1.5em; margin-left:15px; color:#666}
+.content_area ul li dl dd:first-of-type{font-size:14px; color:#169dd9; font-weight:700}

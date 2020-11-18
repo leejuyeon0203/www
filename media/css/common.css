@@ -1,0 +1,86 @@
+/* Reset CSS  */
+* { margin:0; padding:0; border:0; outline:0; vertical-align:top;
+-webkit-text-size-adjust:none;  }
+body {font-family:'Roboto', sans-serif; font-size:20px; color:#333;}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display:block; }
+ul, ol, dl { list-style:none; }
+img, video {border:0; vertical-align:top; }
+a, a:link {color:#333;text-decoration:none; }
+a:visited { color:#fff}
+a{display: block}
+a:hover, a:active {color:#333;text-decoration:none; }
+table { border-collapse:collapse; border-spacing:0; }
+input, select { vertical-align:middle; }
+label { cursor:pointer; }
+.blind,legend,hr,caption { display:block; overflow:hidden; position:absolute; top:0; left:-1000em; }
+i,em,address { font-style:normal; font-weight:normal; }
+p,li,dd{ line-height:1.5em}
+.hidden, #skipNav{display:block; position:absolute; left:-1000%; top:0; width:1px; height:1px; overflow:hidden; color:#fff}
+article{overflow:hidden}
+
+/* 헤더공통영역 */
+#headerArea h1 a{background:url(../images/logo.png) no-repeat; color:#fff; text-indent:-999%; overflow:hidden; width:420px; height:55px}
+
+#headerArea{position:fixed; z-index: 30; height:100px; left:0; top: 0; width: 100%}	
+#headerArea	.headerInner{width: 90%; margin: 0 5%; overflow: hidden}
+#headerArea h1{ float: left; margin-top: 25px}
+#headerArea #gnb{float: right;margin-top: 25px}
+#headerArea #gnb ul{overflow: hidden}
+#headerArea #gnb ul li{float: left; margin:30px 0 0 20px}
+#headerArea #gnb ul li h3 a{font-family:'Roboto', sans-serif; font-size:26px; font-weight:600; color:#fff}
+
+#headerArea .menuOpen{position:absolute; right:20px; top:20px; display:none}/*나중에 모바일에서 풀어주면 되기 때문에 처음에는 display:none으로 해주면 됨*/
+#headerArea .menuOpen i{color: #fff}
+
+/* 푸터공통영역 */
+#footerArea{text-align:center; background:#000; position:relative}
+#footerArea .topmenu{width:80px; height:80px; border-radius:50%; font-weight:700; color:#fff; background:#000; position:absolute; margin-left:-35px; left:50%; top:-40px; padding:20px 0; }
+#footerArea .footer_logo{background:url(../images/disney_pixar_logo.png) no-repeat; width:400px; height:85px; position:relative; left:50%; margin-left: -200px; top: 30px}
+
+#footerArea p{clear:both; padding:50px 0 30px; color:#fff; font-size:18px}
+
+
+
+/* 일반 pc */
+@media screen and (max-width:1280px) {
+	#headerArea #gnb ul li h3 a{font-size:23px}
+}
+
+
+/* 테블릿 */
+@media screen and (max-width:1024px) {
+    #headerArea{height:85px}	
+	#headerArea h1 a{width:270px; height:34px; background-size:270px 34px}
+    #headerArea #gnb ul li{margin-top:12px}
+    #headerArea #gnb ul li h3 a{font-size:18px}
+}
+
+/* 소형 테블릿 */
+@media screen and (max-width:768px) {
+    #headerArea{height:70px}
+	#headerArea h1 a{width:168px; height:21px; background-size:168px 21px}
+    #headerArea #gnb ul li{margin: 0}
+    #headerArea #gnb ul li h3 a{font-size:18px}
+    #headerArea .menuOpen{display: block; font-size: 24px}
+    #headerArea .mainMenu{width:100%; background:rgba(0,0,0,.7); display:none; position:absolute; top:60px; left:0}
+    #headerArea .mainMenu li{float:none; width: 100%; margin-bottom:10px; text-align:center;padding: 20px 0}
+    #footerArea  .fotter_logo{width:300px; height:45px; background-size:300px 59px;  position:relative; margin-left:50%; left:-150px}
+    #footerArea P{font-size:14px}
+}
+
+/* 모바일 */
+@media screen and (max-width:640px) {
+	#headerArea h1 a{width:168px; height:21px; background-size:168px 21px}
+    #headerArea #gnb ul li h3 a{font-size:20px}
+    
+    #footerArea .footer_logo{background:url(../images/disney_pixar_logo2.png) no-repeat; width:200px; height:60px;position: relative; left: 50%; margin-left: -100px; top: 30px}
+    #footerArea P{font-size:12px; padding-top:35px}
+    
+    
+}
+
+/* 최소 사이즈 처리 */
+@media screen and (max-width:480px) {
+	#wrap{min-width:320px; }
+    #footerArea P{font-size:10px}
+}

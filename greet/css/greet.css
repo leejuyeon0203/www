@@ -1,0 +1,110 @@
+#content2{width:1100px; margin:0 auto}
+#content .title_area .lineMap{text-align: right; color:#999; margin-bottom:50px}
+#content .title_area .title h2{font-size:60px; font-weight:700; color:#333; margin-bottom:40px; font-family: 'Roboto', sans-serif; text-align:center}
+#content .title_area .title p{font-size:18px; color:#666; font-family: 'Nanum Gothic',sans-serif; margin-bottom:100px; text-align:center}
+#content .content_area{margin-bottom:200px}
+#content #col2{min-height:558px; overflow:hidden}
+
+/* list css */
+#col2 form{overflow:hidden; font-family:'Roboto',sans-serif}
+#col2 #list_search{float:left; font-size:14px}
+#col2 select{float:left; font-size:14px; margin-top:15px; border:1px solid #ccc; border-radius:3px; padding:3px}
+#list_search{height:30px; padding-top:10px}
+
+#list_top_title{height:17px; padding:12px; border-top:solid 2px #aaaaaa; border-bottom:solid 1px #aaa; margin-bottom:3px}
+#list_top_title li{display:inline; font-weight:bold; color:#4689d0}
+#list_top_title #list_title1{margin-left:28px}
+#list_top_title #list_title2{margin-left:250px}
+#list_top_title #list_title3{margin-left:481px}
+#list_top_title #list_title4{margin-left:48px}
+#list_top_title #list_title5{margin-left:32px}
+
+#list_content{height:450px}
+.list_item{height:18px; padding:9px; border-bottom:solid 1px #eeeeee}
+.list_item .list_item1{float:left; width:95px; text-align:center}
+.list_item .list_item2{float:left; width:720px}
+.list_item .list_item3{float:left; width:95px; text-align:center}
+.list_item .list_item4{float:left; width:95px; text-align:center}
+.list_item .list_item5{float:left; width:45px; text-align:center}
+#page_button{margin-top:20px}
+#page_button i{color: #999}
+#page_button i:hover{color: #333; cursor: pointer}
+
+#page_num {width:100%; float:left;margin:50px 0 100px; text-align:center; }
+#button{float:right; text-align:right}
+#button>a{border:1px solid #ccc; padding:5px 10px; border-radius:3px}
+#button>a:hover{background-color:#169dd9; color:#fff}
+
+
+/* write_form css */
+#write_form_title{font-family:'Nanum Gothic', sans-serif; height:50px; text-align:center; padding-top:23px; border-top:solid 2px #4689D0; background-color:#f2f2f2; border-bottom:1px solid #ccc}
+#write_form_title h3{font-size:22px; font-weight:bold}
+#write_form {
+	margin-top:10px;
+}
+
+#write_form #write_row1 {
+    width:99%; 
+	height:45px; 
+	margin:2px 0 2px 0;
+}
+
+#write_form #write_row2 {
+    width:99%; 
+	height:45px; 
+	margin:5px 0 5px 0; 
+}
+
+#write_form #write_row3 {
+    width:99%; 
+	height:256px; 
+	margin:5px 0 5px 0; 
+}
+
+
+
+#write_form .col1{float:left; width:120px; text-align:center; padding:10px; background-color:#eeeeee; font-size:18px; font-weight:bold}
+
+#write_form #write_row3 .col1 {
+	height:126px;
+	padding-top:120px;
+}
+
+#write_form .col2{float:left;
+	margin-left: 8px;
+	margin-top:3px;
+}
+
+#write_form #write_row1 .col2{float:left; margin-top:13px}
+#write_form #write_row1 .col3{float:left; margin-top:4px; margin-left:100px;}
+#write_row2 .col2 input{width:935px; height:32px; border:solid 1px #cccccc;}
+#write_row3 .col2 textarea{border:solid 1px #cccccc; width:935px; height:245px}
+#write_button{margin:33px 0 100px ;width:99%;text-align:right}
+#write_button a{border:1px solid #ccc; padding:5px 10px; border-radius:3px}
+#write_button a:hover{background:#4689D0; color:#fff}
+
+#sch {float:right;border:1px solid #ccc;background:#fff;border-radius:3px; width: 330px; padding:3px 0}
+#sch:after {display:block;visibility:hidden;clear:both;content:""}
+#sch select{border:0;margin:0 5px;float:left;border-right:1px solid #ddd}
+#sch .sch_input{border:0;background-color:transparent;float:left; margin-top:5px}
+#sch .sch_btn{float:right;background:none;border:0;width:40px;font-size:15px}
+#sch button i{margin-top:5px}
+
+/* view.php css */
+#view_comment{margin:10px 0 0 10px;}
+#view_title{height:18px; padding:10px 8px 65px 8px; border-top:solid 2px #4689d0; background-color:#f2f2f2; margin-bottom:5px; border-bottom:1px solid #ccc; font-family: 'Nanum Gothic', sans-serif}
+#view_title1{float:left; width:1100px; text-align:center; margin-top:20px; font-size:20px; font-weight:700 }
+#view_title2{float:left; text-align:right; margin-top:15px; width:1080px;  padding-bottom:5px}
+
+#view_content {
+	width:97.5%;
+	min-height:200px;
+	padding:15px;
+	overflow:hidden;
+	line-height:150%;
+	border-bottom:solid 1px #cccccc;
+}
+
+#view_button{width:100%; text-align:right; margin:35px 0 100px; font-family:'Roboto',sans-serif}
+#view_button a{border:1px solid #ddd; border-radius:3px; padding:3px 7px; font-size:14px}
+#view_button a:hover{background-color:#169dd9; color:#fff}
